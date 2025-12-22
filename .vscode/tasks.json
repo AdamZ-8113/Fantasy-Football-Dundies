@@ -1,0 +1,69 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "OAuth: Bootstrap (OAuth 2.0)",
+      "type": "shell",
+      "command": "python",
+      "args": ["scripts/oauth2_bootstrap.py"],
+      "problemMatcher": [],
+      "options": { "cwd": "${workspaceFolder}" }
+    },
+    {
+      "label": "Discover Leagues",
+      "type": "shell",
+      "command": "python",
+      "args": ["scripts/discover_leagues.py"],
+      "problemMatcher": [],
+      "options": { "cwd": "${workspaceFolder}" }
+    },
+    {
+      "label": "Sync All Data",
+      "type": "shell",
+      "command": "python",
+      "args": ["scripts/sync_all.py"],
+      "problemMatcher": [],
+      "options": { "cwd": "${workspaceFolder}" }
+    },
+    {
+      "label": "Export Site Data",
+      "type": "shell",
+      "command": "python",
+      "args": ["scripts/export_site_data.py"],
+      "problemMatcher": [],
+      "options": { "cwd": "${workspaceFolder}" }
+    },
+    {
+      "label": "Export Injury Reports",
+      "type": "shell",
+      "command": "python",
+      "args": ["scripts/export_injury_reports.py"],
+      "problemMatcher": [],
+      "options": { "cwd": "${workspaceFolder}" }
+    },
+    {
+      "label": "Generate Insights (All Seasons)",
+      "type": "shell",
+      "command": "python",
+      "args": ["scripts/generate_insights.py"],
+      "problemMatcher": [],
+      "options": { "cwd": "${workspaceFolder}" }
+    },
+    {
+      "label": "Generate Team Insights (All Seasons)",
+      "type": "shell",
+      "command": "python",
+      "args": ["scripts/generate_team_insights.py"],
+      "problemMatcher": [],
+      "options": { "cwd": "${workspaceFolder}" }
+    },
+    {
+      "label": "Publish GitHub Pages (gh-pages)",
+      "type": "shell",
+      "command": "git",
+      "args": ["subtree", "push", "--prefix", "site", "origin", "gh-pages"],
+      "problemMatcher": [],
+      "options": { "cwd": "${workspaceFolder}" }
+    }
+  ]
+}
