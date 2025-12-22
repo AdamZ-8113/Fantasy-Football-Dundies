@@ -1,24 +1,31 @@
 # Fantasy Insights
 
-Goal: pull multi-season Yahoo Fantasy Football league data, analyze it, and publish insights on a simple static webpage.
+Fantasy Insights pulls multi-season Yahoo Fantasy Football data, calculates end-of-season awards, and publishes a static "Wrapped" style site.
 
-## Tech Stack (decided)
-- Python 3.11 for ingestion, normalization, and analysis
-- OAuth 1.0a via `requests-oauthlib`
+## What this does
+- Authenticates to the Yahoo Fantasy Sports API.
+- Downloads league data (matchups, rosters, transactions, draft results, stats).
+- Stores raw XML snapshots plus normalized SQLite tables.
+- Generates season and team-specific insights JSON for the static site.
+- Publishes everything in `site/` for GitHub Pages.
+
+## Tech stack
+- Python 3.11+ for ingestion, normalization, and analysis
+- OAuth 2.0 (recommended) or OAuth 1.0a via `requests-oauthlib`
 - XML parsing via `lxml`
 - Storage in SQLite (raw + normalized tables)
-- Static site in `site/` fed by precomputed JSON/CSV
+- Static site in `site/` fed by precomputed JSON
 
-## Repo Layout
+## Repo layout
 - `scripts/`: data ingestion and analysis scripts
-- `data/raw/`: raw API responses (XML or JSON snapshots)
-- `data/processed/`: cleaned tables and aggregates
+- `data/raw/`: raw API responses (XML snapshots)
+- `data/processed/`: normalized tables and aggregates
 - `config/`: non-secret config files
-- `site/`: static webpage assets
-- `docs/`: design notes and data model docs
+- `site/`: static webpage assets and data
+- `docs/`: setup, data model, and deployment docs
 
-## Setup
-1) Create a Python virtual environment.
+## Quick start
+1) Create and activate a Python virtual environment.
    - `python -m venv .venv`
    - `./.venv/Scripts/Activate.ps1`
 2) Install dependencies.
@@ -26,31 +33,77 @@ Goal: pull multi-season Yahoo Fantasy Football league data, analyze it, and publ
 3) Copy config and environment templates.
    - `copy .env.example .env`
    - `copy config\config.example.toml config\config.toml`
+4) Configure your Yahoo app and OAuth (see `docs/oauth_setup.md`).
+5) Run the OAuth bootstrap:
+   - Recommended: `python scripts/oauth2_bootstrap.py`
+   - Fallback: `python scripts/oauth_bootstrap.py`
 
-## OAuth Notes
-The Yahoo Fantasy Sports API uses OAuth 1.0a. The ingestion script will:
-- open a URL for authorization
-- capture the verifier via a local callback (default) or prompt for it
-- store the access token/secret and session handle locally
+## Configuration
+Environment variables in `.env`:
+- `YAHOO_CONSUMER_KEY`: Yahoo app Client ID (consumer key)
+- `YAHOO_CONSUMER_SECRET`: Yahoo app Client Secret
+- `YAHOO_OAUTH_REDIRECT_URI`: Must match the Yahoo app Redirect URI
+- `YAHOO_OAUTH_SCOPE`: Defaults to `fspt-r` (Fantasy Sports read)
 
-If OAuth 1.0a fails with 401s, use the OAuth 2.0 fallback:
-- `python scripts/oauth2_bootstrap.py`
+Non-secret settings in `config/config.toml`:
+- `game_key`: Typically `nfl`
+- `season_start` / `season_end`: Season range to include
+- `league_name_hint` / `league_id_hint`: Optional filters for league discovery
+- `league_filter_mode`: `filtered` or `all`
 
-## Scripts
-- `python scripts/oauth_bootstrap.py` to create `config/oauth_tokens.json`
-- `python scripts/discover_leagues.py` to list league keys by season
-- `python scripts/sync_all.py` to pull all seasons into SQLite and raw XML
-- `python scripts/export_site_data.py` to generate JSON for the site
-- `python scripts/backfill_team_stats.py` to rebuild team_stats from raw XML
-- `python scripts/validate_counts.py` to summarize per-league row counts
-- `python scripts/backfill_player_stats.py` to fetch player stats from existing rosters
-- `python scripts/generate_insights.py` to build season insight JSON files in `site/data/`
-- `python scripts/backfill_draft_results.py` to pull draft results into SQLite
-- `python scripts/backfill_stat_modifiers.py` to load scoring modifiers from raw settings
-- `python scripts/backfill_roster_injuries.py` to backfill roster injury statuses
-- `python scripts/export_injury_reports.py` to export injury roster/drop reports
+## Data pipeline (standard run)
+1) Discover leagues:
+   - `python scripts/discover_leagues.py`
+2) Sync league data into SQLite + raw XML:
+   - `python scripts/sync_all.py`
+3) Optional backfills:
+   - `python scripts/backfill_draft_results.py`
+   - `python scripts/backfill_stat_modifiers.py`
+   - `python scripts/backfill_roster_injuries.py`
+   - `python scripts/backfill_player_stats.py`
+4) Export site datasets:
+   - `python scripts/export_site_data.py`
+   - `python scripts/export_injury_reports.py`
+5) Generate awards:
+   - `python scripts/generate_insights.py`
+   - `python scripts/generate_team_insights.py`
 
-## Next Implementation Steps
-- Fetch league metadata by season
-- Normalize league, team, matchup, roster, and transaction data
-- Generate summary tables for the static site
+## Script reference
+- `scripts/oauth2_bootstrap.py`: OAuth 2.0 flow, writes `config/oauth_tokens.json`
+- `scripts/oauth_bootstrap.py`: OAuth 1.0a flow (fallback)
+- `scripts/discover_leagues.py`: Finds league keys across seasons
+- `scripts/sync_all.py`: Pulls league data into SQLite and raw XML
+- `scripts/backfill_draft_results.py`: Loads draft results into SQLite
+- `scripts/backfill_stat_modifiers.py`: Loads scoring modifiers
+- `scripts/backfill_team_stats.py`: Rebuilds team stats from raw XML
+- `scripts/backfill_roster_injuries.py`: Backfills injury statuses
+- `scripts/backfill_player_stats.py`: Backfills player stats from roster weeks
+- `scripts/validate_counts.py`: Summarizes per-league row counts
+- `scripts/export_site_data.py`: Builds `site/data/*` JSON
+- `scripts/export_injury_reports.py`: Builds injury reports JSON
+- `scripts/generate_insights.py`: Season-level awards JSON
+- `scripts/generate_team_insights.py`: Team-specific awards JSON
+
+## Generate data for a single season
+Option A: limit discovery and sync via config.
+1) Edit `config/config.toml`:
+   - `season_start = 2024`
+   - `season_end = 2024`
+2) Run `python scripts/discover_leagues.py`
+3) Run `python scripts/sync_all.py`
+
+Option B: sync a known league key only.
+1) Find the league key in `data/processed/leagues.json`.
+2) Run `python scripts/sync_all.py --only <league_key>`
+
+Insights for one season:
+- `python scripts/generate_insights.py --season 2024`
+- `python scripts/generate_team_insights.py --season 2024`
+
+## Security and sensitive data
+- `.env` is ignored by git.
+- OAuth tokens live in `config/oauth_tokens.json` (ignored).
+- Raw/processed data and SQLite files are ignored.
+
+## Deployment
+See `docs/DEPLOYMENT.md` for GitHub Pages instructions.
