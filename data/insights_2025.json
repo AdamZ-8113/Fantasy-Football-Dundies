@@ -1,27 +1,30 @@
 {
   "season": "2025",
   "league_key": "461.l.353490",
-  "generated_at": "2025-12-21 21:25:49",
+  "generated_at": "2025-12-29 20:40:26",
   "insights": [
     {
       "id": "league_champion_dna",
       "title": "League Champion DNA",
       "metric": {
-        "top3_weeks": 16
+        "top3_weeks": 6,
+        "wins": 8,
+        "losses": 6,
+        "avg_points": 139.74
       },
       "team": {
-        "team_key": "461.l.353490.t.1",
-        "team_name": "This Team is Boutte",
-        "manager_names": "Chris"
+        "team_key": "461.l.353490.t.5",
+        "team_name": "HoldMyBeer\ud83c\udf7b",
+        "manager_names": "brandon"
       }
     },
     {
       "id": "paper_tiger",
       "title": "Paper Tiger Award",
       "metric": {
-        "wins": 11,
-        "losses": 5,
-        "avg_points": 125.83
+        "wins": 10,
+        "losses": 4,
+        "avg_points": 131.64
       },
       "team": {
         "team_key": "461.l.353490.t.6",
@@ -33,7 +36,7 @@
       "id": "unluckiest_manager",
       "title": "Unluckiest Manager",
       "metric": {
-        "points_against": 2181.28
+        "points_against": 1993.68
       },
       "team": {
         "team_key": "461.l.353490.t.1",
@@ -45,12 +48,12 @@
       "id": "juggernaut",
       "title": "Juggernaut",
       "metric": {
-        "avg_points": 132.27
+        "avg_points": 140.17
       },
       "team": {
-        "team_key": "461.l.353490.t.11",
-        "team_name": "The Bills",
-        "manager_names": "ronny"
+        "team_key": "461.l.353490.t.7",
+        "team_name": "London Legends",
+        "manager_names": "Andrew"
       }
     },
     {
@@ -75,27 +78,6 @@
         "team_key": "461.l.353490.t.7",
         "team_name": "London Legends",
         "manager_names": "Andrew"
-      }
-    },
-    {
-      "id": "snatched_victory",
-      "title": "Snatched Victory",
-      "metric": {
-        "week": 10,
-        "matchup_id": "5",
-        "margin": 0.06,
-        "winner": {
-          "team_key": "461.l.353490.t.11",
-          "team_name": "The Bills",
-          "manager_names": "ronny"
-        },
-        "loser": {
-          "team_key": "461.l.353490.t.7",
-          "team_name": "London Legends",
-          "manager_names": "Andrew"
-        },
-        "winner_points": 124.5,
-        "loser_points": 124.44
       }
     },
     {
@@ -144,35 +126,49 @@
       "id": "blowout_victim",
       "title": "Blowout Victim",
       "metric": {
-        "week": 16,
-        "matchup_id": "4",
-        "margin": 101.0,
+        "week": 5,
+        "matchup_id": "1",
+        "margin": 79.82,
         "winner": {
-          "team_key": "461.l.353490.t.11",
-          "team_name": "The Bills",
-          "manager_names": "ronny"
+          "team_key": "461.l.353490.t.5",
+          "team_name": "HoldMyBeer\ud83c\udf7b",
+          "manager_names": "brandon"
         },
         "loser": {
-          "team_key": "461.l.353490.t.4",
-          "team_name": "Harbaugh Sucks",
-          "manager_names": "-- hidden --"
+          "team_key": "461.l.353490.t.1",
+          "team_name": "This Team is Boutte",
+          "manager_names": "Chris"
         },
-        "winner_points": 101.0,
-        "loser_points": 0.0
+        "winner_points": 172.58,
+        "loser_points": 92.76
+      }
+    },
+    {
+      "id": "always_the_bridesmaid",
+      "title": "Always the Bridesmaid",
+      "metric": {
+        "avg_margin_loss": 16.73,
+        "losses": 5
+      },
+      "team": {
+        "team_key": "461.l.353490.t.3",
+        "team_name": "Emo Kidz",
+        "manager_names": "Emily"
       }
     },
     {
       "id": "schedule_screwed_me",
       "title": "The Schedule Screwed Me",
       "metric": {
-        "actual_wins": 11,
-        "hypothetical_wins": 9,
-        "delta": -2
+        "actual_wins": 8,
+        "hypothetical_wins": 11,
+        "delta": 3,
+        "hypothetical_rule": "Win if weekly score beats league average."
       },
       "team": {
-        "team_key": "461.l.353490.t.6",
-        "team_name": "Holy Toledo!",
-        "manager_names": "christopher"
+        "team_key": "461.l.353490.t.5",
+        "team_name": "HoldMyBeer\ud83c\udf7b",
+        "manager_names": "brandon"
       }
     },
     {
@@ -218,9 +214,9 @@
         "trades": 1
       },
       "team": {
-        "team_key": "461.l.353490.t.1",
-        "team_name": "This Team is Boutte",
-        "manager_names": "Chris"
+        "team_key": "461.l.353490.t.5",
+        "team_name": "HoldMyBeer\ud83c\udf7b",
+        "manager_names": "brandon"
       }
     },
     {
@@ -235,6 +231,20 @@
         "team_key": "461.l.353490.t.3",
         "team_name": "Emo Kidz",
         "manager_names": "Emily"
+      }
+    },
+    {
+      "id": "commitment_issues",
+      "title": "The Commitment Issues Trophy",
+      "metric": {
+        "drafted_players": 15,
+        "still_rostered": 7,
+        "percent": 46.67
+      },
+      "team": {
+        "team_key": "461.l.353490.t.10",
+        "team_name": "Post Mahomes",
+        "manager_names": "Andrew"
       }
     },
     {
@@ -342,17 +352,18 @@
       "id": "set_and_forget",
       "title": "Set-and-Forget Legend",
       "metric": {
-        "starts": 17
+        "starts": 17,
+        "avg_weekly_score": 18.67
       },
       "team": {
-        "team_key": "461.l.353490.t.2",
-        "team_name": "CPOY",
-        "manager_names": "Ray"
+        "team_key": "461.l.353490.t.3",
+        "team_name": "Emo Kidz",
+        "manager_names": "Emily"
       },
       "player": {
-        "player_key": "461.p.31883",
-        "player_name": "A.J. Brown",
-        "player_position": "WR"
+        "player_key": "461.p.40059",
+        "player_name": "Jahmyr Gibbs",
+        "player_position": "RB"
       }
     },
     {
@@ -368,21 +379,60 @@
       }
     },
     {
+      "id": "why_dont_he_want_me",
+      "title": "Why Don't He Want Me, Man?",
+      "metric": {
+        "bench_points": 239.16,
+        "bench_weeks": 13
+      },
+      "player": {
+        "player_key": "461.p.40875",
+        "player_name": "Bo Nix",
+        "player_position": "QB"
+      },
+      "team": {
+        "team_key": "461.l.353490.t.3",
+        "team_name": "Emo Kidz",
+        "manager_names": "Emily"
+      }
+    },
+    {
       "id": "favorite_player",
       "title": "Favorite Player",
       "metric": {
-        "roster_appearances": 17
+        "unique_teams": 5,
+        "roster_appearances": 11
       },
       "player": {
-        "player_key": "461.p.30971",
-        "player_name": "Baker Mayfield",
-        "player_position": "QB"
+        "player_key": "461.p.100014",
+        "player_name": "Rams",
+        "player_position": "DEF"
       },
       "teams": [
         {
-          "team_key": "461.l.353490.t.1",
-          "team_name": "This Team is Boutte",
-          "manager_names": "Chris"
+          "team_key": "461.l.353490.t.11",
+          "team_name": "The Bills",
+          "manager_names": "ronny"
+        },
+        {
+          "team_key": "461.l.353490.t.4",
+          "team_name": "Harbaugh Sucks",
+          "manager_names": "-- hidden --"
+        },
+        {
+          "team_key": "461.l.353490.t.7",
+          "team_name": "London Legends",
+          "manager_names": "Andrew"
+        },
+        {
+          "team_key": "461.l.353490.t.8",
+          "team_name": "Scoregasm",
+          "manager_names": "Adam"
+        },
+        {
+          "team_key": "461.l.353490.t.9",
+          "team_name": "DownHill From Here",
+          "manager_names": "Don"
         }
       ]
     },
@@ -390,43 +440,19 @@
       "id": "emotional_support",
       "title": "Emotional Support Player",
       "metric": {
-        "starts": 17
+        "starts": 17,
+        "avg_weekly_score": 18.67
       },
       "team": {
-        "team_key": "461.l.353490.t.2",
-        "team_name": "CPOY",
-        "manager_names": "Ray"
+        "team_key": "461.l.353490.t.3",
+        "team_name": "Emo Kidz",
+        "manager_names": "Emily"
       },
       "player": {
-        "player_key": "461.p.31883",
-        "player_name": "A.J. Brown",
-        "player_position": "WR"
+        "player_key": "461.p.40059",
+        "player_name": "Jahmyr Gibbs",
+        "player_position": "RB"
       }
-    },
-    {
-      "id": "stack_enjoyer",
-      "title": "Stack Enjoyer",
-      "metric": {
-        "week": 2,
-        "points": 81.66
-      },
-      "team": {
-        "team_key": "461.l.353490.t.11",
-        "team_name": "The Bills",
-        "manager_names": "ronny"
-      },
-      "players": [
-        {
-          "player_key": "461.p.29235",
-          "player_name": "Jared Goff",
-          "player_position": "QB"
-        },
-        {
-          "player_key": "461.p.40899",
-          "player_name": "Malik Nabers",
-          "player_position": "WR"
-        }
-      ]
     },
     {
       "id": "rock_bottom",
@@ -482,12 +508,15 @@
       "id": "looked_better_on_paper",
       "title": "It Looked Better on Paper",
       "metric": {
-        "diff": 154.1
+        "week": 14,
+        "projected_score": 142.5,
+        "actual_score": 84.84,
+        "difference": 57.66
       },
       "team": {
-        "team_key": "461.l.353490.t.7",
-        "team_name": "London Legends",
-        "manager_names": "Andrew"
+        "team_key": "461.l.353490.t.9",
+        "team_name": "DownHill From Here",
+        "manager_names": "Don"
       }
     },
     {
@@ -507,7 +536,7 @@
     },
     {
       "id": "well_get_em_next_year",
-      "title": "We\u2019ll Get \u2019Em Next Year",
+      "title": "We'll Get 'Em Next Year",
       "metric": {
         "points_for": 1856.26,
         "rank": 10
@@ -531,18 +560,6 @@
     }
   ],
   "missing": [
-    {
-      "id": "tinkerer",
-      "reason": "Lineup change timestamps not available."
-    },
-    {
-      "id": "vulture_victim",
-      "reason": "Requires play-by-play touchdown context."
-    },
-    {
-      "id": "auto_draft_menace",
-      "reason": "Auto-draft flag not captured yet."
-    },
     {
       "id": "draft_position_champion",
       "reason": "Draft data not captured yet."

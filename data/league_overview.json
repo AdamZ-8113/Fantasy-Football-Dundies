@@ -2985,12 +2985,12 @@
       "leader_median_wins": 10,
       "biggest_gap": 2,
       "biggest_gap_team": {
-        "team_key": "380.l.94024.t.3",
-        "team_name": "I Got Woods",
-        "manager_names": "Andrew"
+        "team_key": "380.l.94024.t.6",
+        "team_name": "Rollin J's",
+        "manager_names": "ronny"
       },
-      "biggest_gap_median_wins": 10,
-      "biggest_gap_actual_wins": 8
+      "biggest_gap_median_wins": 6,
+      "biggest_gap_actual_wins": 4
     },
     "upset_rate": {
       "upsets": 23,
@@ -3655,12 +3655,12 @@
       "leader_median_wins": 10,
       "biggest_gap": 3,
       "biggest_gap_team": {
-        "team_key": "390.l.270609.t.1",
-        "team_name": "Kollusion_Killers",
-        "manager_names": "Chris"
+        "team_key": "390.l.270609.t.6",
+        "team_name": "Rollin' w/ Mahomes",
+        "manager_names": "cathy"
       },
-      "biggest_gap_median_wins": 9,
-      "biggest_gap_actual_wins": 6
+      "biggest_gap_median_wins": 10,
+      "biggest_gap_actual_wins": 7
     },
     "upset_rate": {
       "upsets": 36,
