@@ -1,7 +1,7 @@
 {
   "season": "2017",
   "league_key": "371.l.54363",
-  "generated_at": "2025-12-22 00:19:10",
+  "generated_at": "2025-12-29 20:40:25",
   "insights": [
     {
       "id": "league_champion_dna",
@@ -517,9 +517,9 @@
         "first_half_win_pct": 0.5
       },
       "team": {
-        "team_key": "371.l.54363.t.3",
-        "team_name": "Keenan and Ell",
-        "manager_names": "ronny"
+        "team_key": "371.l.54363.t.1",
+        "team_name": "Kollusion_Killers",
+        "manager_names": "Chris"
       }
     },
     {
