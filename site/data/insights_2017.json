@@ -1,7 +1,7 @@
 {
   "season": "2017",
   "league_key": "371.l.54363",
-  "generated_at": "2025-12-31 00:36:02",
+  "generated_at": "2025-12-31 08:16:05",
   "insights": [
     {
       "id": "league_champion_dna",
@@ -251,43 +251,43 @@
       "id": "draft_steal",
       "title": "Draft Steal of the Year",
       "metric": {
-        "draft_rank": 180,
-        "season_rank": 1,
-        "delta": 179,
-        "season_points": 0.0,
-        "round": 15,
-        "pick": 180
+        "draft_rank": 144,
+        "season_rank": 14,
+        "delta": 130,
+        "season_points": 292.42,
+        "round": 12,
+        "pick": 144
       },
       "team": {
-        "team_key": "371.l.54363.t.12",
-        "team_name": "Cooper Troopers",
-        "manager_names": "Andrew"
+        "team_key": "371.l.54363.t.5",
+        "team_name": "HackTheMainframe",
+        "manager_names": "brandon"
       },
       "player": {
-        "player_key": "371.p.100001",
-        "player_name": "Falcons",
-        "player_position": "DEF"
+        "player_key": "371.p.6763",
+        "player_name": "Philip Rivers",
+        "player_position": "QB"
       }
     },
     {
       "id": "reached_and_regretted",
       "title": "Reached and Regretted",
       "metric": {
-        "draft_rank": 5,
-        "season_rank": 300,
-        "delta": -295,
-        "season_points": 0.0,
+        "draft_rank": 1,
+        "season_rank": 259,
+        "delta": -258,
+        "season_points": 13.0,
         "round": 1,
-        "pick": 5
+        "pick": 1
       },
       "team": {
-        "team_key": "371.l.54363.t.7",
-        "team_name": "Scoregasm",
-        "manager_names": "Adam"
+        "team_key": "371.l.54363.t.5",
+        "team_name": "HackTheMainframe",
+        "manager_names": "brandon"
       },
       "player": {
-        "player_key": "371.p.9317",
-        "player_name": "LeSean McCoy",
+        "player_key": "371.p.28474",
+        "player_name": "David Johnson",
         "player_position": "RB"
       }
     },
@@ -297,7 +297,7 @@
       "metric": {
         "round": 1,
         "pick": 1,
-        "season_points": 0.0
+        "season_points": 13.0
       },
       "team": {
         "team_key": "371.l.54363.t.5",
@@ -314,19 +314,19 @@
       "id": "late_round_wizardry",
       "title": "Late-Round Wizardry",
       "metric": {
-        "round": 10,
-        "pick": 109,
-        "season_points": 0.0,
+        "round": 11,
+        "pick": 131,
+        "season_points": 347.74,
         "late_round_threshold": 10
       },
       "team": {
-        "team_key": "371.l.54363.t.12",
-        "team_name": "Cooper Troopers",
-        "manager_names": "Andrew"
+        "team_key": "371.l.54363.t.8",
+        "team_name": "Smoke Two Blounts",
+        "manager_names": "christopher"
       },
       "player": {
-        "player_key": "371.p.27564",
-        "player_name": "Derek Carr",
+        "player_key": "371.p.29236",
+        "player_name": "Carson Wentz",
         "player_position": "QB"
       }
     },
@@ -334,18 +334,18 @@
       "id": "bench_war_crime",
       "title": "Bench War Crime",
       "metric": {
-        "week": 1,
-        "points": 0.0
+        "week": 13,
+        "points": 45.64
       },
       "team": {
-        "team_key": "371.l.54363.t.1",
-        "team_name": "Kollusion_Killers",
-        "manager_names": "Chris"
+        "team_key": "371.l.54363.t.7",
+        "team_name": "Scoregasm",
+        "manager_names": "Adam"
       },
       "player": {
-        "player_key": "371.p.24062",
-        "player_name": "Eric Decker",
-        "player_position": "WR"
+        "player_key": "371.p.7177",
+        "player_name": "Alex Smith",
+        "player_position": "QB"
       }
     },
     {
@@ -353,35 +353,47 @@
       "title": "Set-and-Forget Legend",
       "metric": {
         "starts": 15,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 25.55
       },
       "team": {
-        "team_key": "371.l.54363.t.10",
-        "team_name": "two buck luck",
-        "manager_names": "cathy"
+        "team_key": "371.l.54363.t.6",
+        "team_name": "Harbaughcalypse Now",
+        "manager_names": "Don"
       },
       "player": {
-        "player_key": "371.p.5228",
-        "player_name": "Tom Brady",
-        "player_position": "QB"
+        "player_key": "371.p.28398",
+        "player_name": "Todd Gurley",
+        "player_position": "RB"
+      }
+    },
+    {
+      "id": "overthinker",
+      "title": "Overthinker",
+      "metric": {
+        "games": 6
+      },
+      "team": {
+        "team_key": "371.l.54363.t.6",
+        "team_name": "Harbaughcalypse Now",
+        "manager_names": "Don"
       }
     },
     {
       "id": "why_dont_he_want_me",
       "title": "Why Don't He Want Me, Man?",
       "metric": {
-        "bench_points": 0.0,
-        "bench_weeks": 2
+        "bench_points": 221.22,
+        "bench_weeks": 10
       },
       "player": {
-        "player_key": "371.p.24062",
-        "player_name": "Eric Decker",
-        "player_position": "WR"
+        "player_key": "371.p.7177",
+        "player_name": "Alex Smith",
+        "player_position": "QB"
       },
       "team": {
-        "team_key": "371.l.54363.t.1",
-        "team_name": "Kollusion_Killers",
-        "manager_names": "Chris"
+        "team_key": "371.l.54363.t.7",
+        "team_name": "Scoregasm",
+        "manager_names": "Adam"
       }
     },
     {
@@ -429,17 +441,17 @@
       "title": "Emotional Support Player",
       "metric": {
         "starts": 15,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 25.55
       },
       "team": {
-        "team_key": "371.l.54363.t.10",
-        "team_name": "two buck luck",
-        "manager_names": "cathy"
+        "team_key": "371.l.54363.t.6",
+        "team_name": "Harbaughcalypse Now",
+        "manager_names": "Don"
       },
       "player": {
-        "player_key": "371.p.5228",
-        "player_name": "Tom Brady",
-        "player_position": "QB"
+        "player_key": "371.p.28398",
+        "player_name": "Todd Gurley",
+        "player_position": "RB"
       }
     },
     {

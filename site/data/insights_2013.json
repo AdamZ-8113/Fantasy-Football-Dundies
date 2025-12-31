@@ -1,7 +1,7 @@
 {
   "season": "2013",
   "league_key": "314.l.111797",
-  "generated_at": "2025-12-31 00:36:01",
+  "generated_at": "2025-12-31 08:16:05",
   "insights": [
     {
       "id": "league_champion_dna",
@@ -251,43 +251,43 @@
       "id": "draft_steal",
       "title": "Draft Steal of the Year",
       "metric": {
-        "draft_rank": 178,
-        "season_rank": 8,
-        "delta": 170,
-        "season_points": 0.0,
-        "round": 15,
-        "pick": 178
+        "draft_rank": 155,
+        "season_rank": 6,
+        "delta": 149,
+        "season_points": 336.06,
+        "round": 13,
+        "pick": 155
       },
       "team": {
-        "team_key": "314.l.111797.t.8",
-        "team_name": "chocolate starfish",
-        "manager_names": "Don"
+        "team_key": "314.l.111797.t.1",
+        "team_name": "Hangings W/ MrCooper",
+        "manager_names": "Chris"
       },
       "player": {
-        "player_key": "314.p.100009",
-        "player_name": "Packers",
-        "player_position": "DEF"
+        "player_key": "314.p.6763",
+        "player_name": "Philip Rivers",
+        "player_position": "QB"
       }
     },
     {
       "id": "reached_and_regretted",
       "title": "Reached and Regretted",
       "metric": {
-        "draft_rank": 9,
-        "season_rank": 286,
-        "delta": -277,
-        "season_points": 0.0,
-        "round": 1,
-        "pick": 9
+        "draft_rank": 14,
+        "season_rank": 233,
+        "delta": -219,
+        "season_points": 19.4,
+        "round": 2,
+        "pick": 14
       },
       "team": {
-        "team_key": "314.l.111797.t.2",
-        "team_name": "Pending NSA Approval",
-        "manager_names": "brandon"
+        "team_key": "314.l.111797.t.1",
+        "team_name": "Hangings W/ MrCooper",
+        "manager_names": "Chris"
       },
       "player": {
-        "player_key": "314.p.9527",
-        "player_name": "Arian Foster",
+        "player_key": "314.p.25742",
+        "player_name": "David Wilson",
         "player_position": "RB"
       }
     },
@@ -296,17 +296,17 @@
       "title": "Draft Bust Hall of Fame",
       "metric": {
         "round": 1,
-        "pick": 1,
-        "season_points": 0.0
+        "pick": 2,
+        "season_points": 68.2
       },
       "team": {
-        "team_key": "314.l.111797.t.10",
-        "team_name": "SanDiego GoFYourself",
+        "team_key": "314.l.111797.t.11",
+        "team_name": "Schaub On My Knob",
         "manager_names": "--hidden--"
       },
       "player": {
-        "player_key": "314.p.8261",
-        "player_name": "Adrian Peterson",
+        "player_key": "314.p.25741",
+        "player_name": "Doug Martin",
         "player_position": "RB"
       }
     },
@@ -315,37 +315,37 @@
       "title": "Late-Round Wizardry",
       "metric": {
         "round": 10,
-        "pick": 109,
-        "season_points": 0.0,
+        "pick": 113,
+        "season_points": 346.6,
         "late_round_threshold": 10
       },
       "team": {
-        "team_key": "314.l.111797.t.12",
-        "team_name": "Vanoosh",
+        "team_key": "314.l.111797.t.7",
+        "team_name": "Clich\u00e9TeamName",
         "manager_names": "--hidden--"
       },
       "player": {
-        "player_key": "314.p.8868",
-        "player_name": "Jermichael Finley",
-        "player_position": "TE"
+        "player_key": "314.p.24822",
+        "player_name": "Andy Dalton",
+        "player_position": "QB"
       }
     },
     {
       "id": "bench_war_crime",
       "title": "Bench War Crime",
       "metric": {
-        "week": 1,
-        "points": 0.0
+        "week": 9,
+        "points": 59.64
       },
       "team": {
-        "team_key": "314.l.111797.t.1",
-        "team_name": "Hangings W/ MrCooper",
-        "manager_names": "Chris"
+        "team_key": "314.l.111797.t.11",
+        "team_name": "Schaub On My Knob",
+        "manager_names": "--hidden--"
       },
       "player": {
-        "player_key": "314.p.24057",
-        "player_name": "Emmanuel Sanders",
-        "player_position": "WR"
+        "player_key": "314.p.25798",
+        "player_name": "Nick Foles",
+        "player_position": "QB"
       }
     },
     {
@@ -353,30 +353,42 @@
       "title": "Set-and-Forget Legend",
       "metric": {
         "starts": 16,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 18.16
       },
       "team": {
-        "team_key": "314.l.111797.t.1",
-        "team_name": "Hangings W/ MrCooper",
-        "manager_names": "Chris"
+        "team_key": "314.l.111797.t.12",
+        "team_name": "Vanoosh",
+        "manager_names": "--hidden--"
       },
       "player": {
-        "player_key": "314.p.6663",
-        "player_name": "Antonio Gates",
-        "player_position": "TE"
+        "player_key": "314.p.24791",
+        "player_name": "A.J. Green",
+        "player_position": "WR"
+      }
+    },
+    {
+      "id": "overthinker",
+      "title": "Overthinker",
+      "metric": {
+        "games": 6
+      },
+      "team": {
+        "team_key": "314.l.111797.t.2",
+        "team_name": "Pending NSA Approval",
+        "manager_names": "brandon"
       }
     },
     {
       "id": "why_dont_he_want_me",
       "title": "Why Don't He Want Me, Man?",
       "metric": {
-        "bench_points": 0.0,
-        "bench_weeks": 5
+        "bench_points": 277.68,
+        "bench_weeks": 13
       },
       "player": {
-        "player_key": "314.p.24057",
-        "player_name": "Emmanuel Sanders",
-        "player_position": "WR"
+        "player_key": "314.p.6763",
+        "player_name": "Philip Rivers",
+        "player_position": "QB"
       },
       "team": {
         "team_key": "314.l.111797.t.1",
@@ -424,17 +436,17 @@
       "title": "Emotional Support Player",
       "metric": {
         "starts": 16,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 18.16
       },
       "team": {
-        "team_key": "314.l.111797.t.1",
-        "team_name": "Hangings W/ MrCooper",
-        "manager_names": "Chris"
+        "team_key": "314.l.111797.t.12",
+        "team_name": "Vanoosh",
+        "manager_names": "--hidden--"
       },
       "player": {
-        "player_key": "314.p.6663",
-        "player_name": "Antonio Gates",
-        "player_position": "TE"
+        "player_key": "314.p.24791",
+        "player_name": "A.J. Green",
+        "player_position": "WR"
       }
     },
     {

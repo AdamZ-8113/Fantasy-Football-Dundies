@@ -1,7 +1,7 @@
 {
   "season": "2014",
   "league_key": "331.l.195487",
-  "generated_at": "2025-12-31 00:36:02",
+  "generated_at": "2025-12-31 08:16:05",
   "insights": [
     {
       "id": "league_champion_dna",
@@ -251,43 +251,43 @@
       "id": "draft_steal",
       "title": "Draft Steal of the Year",
       "metric": {
-        "draft_rank": 163,
+        "draft_rank": 129,
         "season_rank": 5,
-        "delta": 158,
-        "season_points": 0.0,
-        "round": 17,
-        "pick": 163
+        "delta": 124,
+        "season_points": 366.34,
+        "round": 13,
+        "pick": 129
       },
       "team": {
-        "team_key": "331.l.195487.t.2",
-        "team_name": "Beats by Ray",
-        "manager_names": "--hidden--"
+        "team_key": "331.l.195487.t.5",
+        "team_name": "Death Cab for QB",
+        "manager_names": "ronny"
       },
       "player": {
-        "player_key": "331.p.100005",
-        "player_name": "Browns",
-        "player_position": "DEF"
+        "player_key": "331.p.25785",
+        "player_name": "Russell Wilson",
+        "player_position": "QB"
       }
     },
     {
       "id": "reached_and_regretted",
       "title": "Reached and Regretted",
       "metric": {
-        "draft_rank": 1,
-        "season_rank": 259,
-        "delta": -258,
-        "season_points": 0.0,
+        "draft_rank": 5,
+        "season_rank": 235,
+        "delta": -230,
+        "season_points": 11.3,
         "round": 1,
-        "pick": 1
+        "pick": 5
       },
       "team": {
-        "team_key": "331.l.195487.t.7",
-        "team_name": "chocolate starfish",
-        "manager_names": "Don"
+        "team_key": "331.l.195487.t.4",
+        "team_name": "Hospice",
+        "manager_names": "Adam"
       },
       "player": {
-        "player_key": "331.p.9317",
-        "player_name": "LeSean McCoy",
+        "player_key": "331.p.8261",
+        "player_name": "Adrian Peterson",
         "player_position": "RB"
       }
     },
@@ -296,17 +296,17 @@
       "title": "Draft Bust Hall of Fame",
       "metric": {
         "round": 1,
-        "pick": 1,
-        "season_points": 0.0
+        "pick": 5,
+        "season_points": 11.3
       },
       "team": {
-        "team_key": "331.l.195487.t.7",
-        "team_name": "chocolate starfish",
-        "manager_names": "Don"
+        "team_key": "331.l.195487.t.4",
+        "team_name": "Hospice",
+        "manager_names": "Adam"
       },
       "player": {
-        "player_key": "331.p.9317",
-        "player_name": "LeSean McCoy",
+        "player_key": "331.p.8261",
+        "player_name": "Adrian Peterson",
         "player_position": "RB"
       }
     },
@@ -314,38 +314,38 @@
       "id": "late_round_wizardry",
       "title": "Late-Round Wizardry",
       "metric": {
-        "round": 10,
-        "pick": 91,
-        "season_points": 0.0,
+        "round": 13,
+        "pick": 129,
+        "season_points": 366.34,
         "late_round_threshold": 10
       },
       "team": {
-        "team_key": "331.l.195487.t.3",
-        "team_name": "12 Weeks a Slave",
-        "manager_names": "Ray"
+        "team_key": "331.l.195487.t.5",
+        "team_name": "Death Cab for QB",
+        "manager_names": "ronny"
       },
       "player": {
-        "player_key": "331.p.24089",
-        "player_name": "Dennis Pitta",
-        "player_position": "TE"
+        "player_key": "331.p.25785",
+        "player_name": "Russell Wilson",
+        "player_position": "QB"
       }
     },
     {
       "id": "bench_war_crime",
       "title": "Bench War Crime",
       "metric": {
-        "week": 1,
-        "points": 0.0
+        "week": 8,
+        "points": 56.78
       },
       "team": {
-        "team_key": "331.l.195487.t.1",
-        "team_name": "Golden Tate Warriors",
-        "manager_names": "Chris"
+        "team_key": "331.l.195487.t.4",
+        "team_name": "Hospice",
+        "manager_names": "Adam"
       },
       "player": {
-        "player_key": "331.p.24318",
-        "player_name": "LeGarrette Blount",
-        "player_position": "RB"
+        "player_key": "331.p.6770",
+        "player_name": "Ben Roethlisberger",
+        "player_position": "QB"
       }
     },
     {
@@ -353,7 +353,7 @@
       "title": "Set-and-Forget Legend",
       "metric": {
         "starts": 16,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 12.98
       },
       "team": {
         "team_key": "331.l.195487.t.9",
@@ -367,21 +367,33 @@
       }
     },
     {
+      "id": "overthinker",
+      "title": "Overthinker",
+      "metric": {
+        "games": 4
+      },
+      "team": {
+        "team_key": "331.l.195487.t.10",
+        "team_name": "Turn Down for WATT??",
+        "manager_names": "Luke"
+      }
+    },
+    {
       "id": "why_dont_he_want_me",
       "title": "Why Don't He Want Me, Man?",
       "metric": {
-        "bench_points": 0.0,
-        "bench_weeks": 2
+        "bench_points": 286.78,
+        "bench_weeks": 14
       },
       "player": {
-        "player_key": "331.p.24318",
-        "player_name": "LeGarrette Blount",
-        "player_position": "RB"
+        "player_key": "331.p.6763",
+        "player_name": "Philip Rivers",
+        "player_position": "QB"
       },
       "team": {
-        "team_key": "331.l.195487.t.1",
-        "team_name": "Golden Tate Warriors",
-        "manager_names": "Chris"
+        "team_key": "331.l.195487.t.7",
+        "team_name": "chocolate starfish",
+        "manager_names": "Don"
       }
     },
     {
@@ -424,7 +436,7 @@
       "title": "Emotional Support Player",
       "metric": {
         "starts": 16,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 12.98
       },
       "team": {
         "team_key": "331.l.195487.t.9",
@@ -512,9 +524,9 @@
         "first_half_win_pct": 0.625
       },
       "team": {
-        "team_key": "331.l.195487.t.9",
-        "team_name": "Smoke Two Blounts",
-        "manager_names": "--hidden--"
+        "team_key": "331.l.195487.t.1",
+        "team_name": "Golden Tate Warriors",
+        "manager_names": "Chris"
       }
     },
     {

@@ -1,7 +1,7 @@
 {
   "season": "2016",
   "league_key": "359.l.94736",
-  "generated_at": "2025-12-31 00:36:02",
+  "generated_at": "2025-12-31 08:16:05",
   "insights": [
     {
       "id": "league_champion_dna",
@@ -251,12 +251,34 @@
       "id": "draft_steal",
       "title": "Draft Steal of the Year",
       "metric": {
-        "draft_rank": 183,
-        "season_rank": 10,
-        "delta": 173,
-        "season_points": 0.0,
-        "round": 16,
-        "pick": 183
+        "draft_rank": 148,
+        "season_rank": 4,
+        "delta": 144,
+        "season_points": 393.02,
+        "round": 13,
+        "pick": 148
+      },
+      "team": {
+        "team_key": "359.l.94736.t.8",
+        "team_name": "TrumpThatBitch",
+        "manager_names": "matt, Cameron"
+      },
+      "player": {
+        "player_key": "359.p.8780",
+        "player_name": "Matt Ryan",
+        "player_position": "QB"
+      }
+    },
+    {
+      "id": "reached_and_regretted",
+      "title": "Reached and Regretted",
+      "metric": {
+        "draft_rank": 10,
+        "season_rank": 269,
+        "delta": -259,
+        "season_points": 9.0,
+        "round": 1,
+        "pick": 10
       },
       "team": {
         "team_key": "359.l.94736.t.9",
@@ -264,31 +286,9 @@
         "manager_names": "christopher"
       },
       "player": {
-        "player_key": "359.p.100013",
-        "player_name": "Raiders",
-        "player_position": "DEF"
-      }
-    },
-    {
-      "id": "reached_and_regretted",
-      "title": "Reached and Regretted",
-      "metric": {
-        "draft_rank": 29,
-        "season_rank": 293,
-        "delta": -264,
-        "season_points": 0.0,
-        "round": 3,
-        "pick": 29
-      },
-      "team": {
-        "team_key": "359.l.94736.t.5",
-        "team_name": "Harbaughcalypse Now",
-        "manager_names": "Don"
-      },
-      "player": {
-        "player_key": "359.p.9496",
-        "player_name": "Julian Edelman",
-        "player_position": "WR"
+        "player_key": "359.p.8261",
+        "player_name": "Adrian Peterson",
+        "player_position": "RB"
       }
     },
     {
@@ -296,56 +296,56 @@
       "title": "Draft Bust Hall of Fame",
       "metric": {
         "round": 1,
-        "pick": 1,
-        "season_points": 0.0
+        "pick": 10,
+        "season_points": 9.0
       },
       "team": {
-        "team_key": "359.l.94736.t.12",
-        "team_name": "Wilson's BlueBallers",
-        "manager_names": "SeanI"
+        "team_key": "359.l.94736.t.9",
+        "team_name": "Smoke Two Blounts",
+        "manager_names": "christopher"
       },
       "player": {
-        "player_key": "359.p.24171",
-        "player_name": "Antonio Brown",
-        "player_position": "WR"
+        "player_key": "359.p.8261",
+        "player_name": "Adrian Peterson",
+        "player_position": "RB"
       }
     },
     {
       "id": "late_round_wizardry",
       "title": "Late-Round Wizardry",
       "metric": {
-        "round": 10,
-        "pick": 109,
-        "season_points": 0.0,
+        "round": 13,
+        "pick": 148,
+        "season_points": 393.02,
         "late_round_threshold": 10
       },
       "team": {
-        "team_key": "359.l.94736.t.6",
-        "team_name": "Ezeka Virus",
-        "manager_names": "ronny"
+        "team_key": "359.l.94736.t.8",
+        "team_name": "TrumpThatBitch",
+        "manager_names": "matt, Cameron"
       },
       "player": {
-        "player_key": "359.p.26702",
-        "player_name": "Markus Wheaton",
-        "player_position": "WR"
+        "player_key": "359.p.8780",
+        "player_name": "Matt Ryan",
+        "player_position": "QB"
       }
     },
     {
       "id": "bench_war_crime",
       "title": "Bench War Crime",
       "metric": {
-        "week": 1,
-        "points": 0.0
+        "week": 16,
+        "points": 44.6
       },
       "team": {
-        "team_key": "359.l.94736.t.1",
-        "team_name": "Kollusion_Killers",
-        "manager_names": "Chris"
+        "team_key": "359.l.94736.t.4",
+        "team_name": "God Hates Jags",
+        "manager_names": "--hidden--"
       },
       "player": {
-        "player_key": "359.p.24913",
-        "player_name": "Bilal Powell",
-        "player_position": "RB"
+        "player_key": "359.p.27277",
+        "player_name": "Adam Thielen",
+        "player_position": "WR"
       }
     },
     {
@@ -353,35 +353,47 @@
       "title": "Set-and-Forget Legend",
       "metric": {
         "starts": 16,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 16.14
       },
       "team": {
-        "team_key": "359.l.94736.t.11",
-        "team_name": "HackTheMainframe",
-        "manager_names": "brandon"
+        "team_key": "359.l.94736.t.7",
+        "team_name": "Mmmmm...Gurley Fries",
+        "manager_names": "Josh"
       },
       "player": {
-        "player_key": "359.p.8447",
-        "player_name": "Mason Crosby",
-        "player_position": "K"
+        "player_key": "359.p.25802",
+        "player_name": "T.Y. Hilton",
+        "player_position": "WR"
+      }
+    },
+    {
+      "id": "overthinker",
+      "title": "Overthinker",
+      "metric": {
+        "games": 6
+      },
+      "team": {
+        "team_key": "359.l.94736.t.7",
+        "team_name": "Mmmmm...Gurley Fries",
+        "manager_names": "Josh"
       }
     },
     {
       "id": "why_dont_he_want_me",
       "title": "Why Don't He Want Me, Man?",
       "metric": {
-        "bench_points": 0.0,
-        "bench_weeks": 14
+        "bench_points": 312.9,
+        "bench_weeks": 16
       },
       "player": {
-        "player_key": "359.p.24913",
-        "player_name": "Bilal Powell",
-        "player_position": "RB"
+        "player_key": "359.p.9265",
+        "player_name": "Matthew Stafford",
+        "player_position": "QB"
       },
       "team": {
-        "team_key": "359.l.94736.t.1",
-        "team_name": "Kollusion_Killers",
-        "manager_names": "Chris"
+        "team_key": "359.l.94736.t.12",
+        "team_name": "Wilson's BlueBallers",
+        "manager_names": "SeanI"
       }
     },
     {
@@ -429,17 +441,17 @@
       "title": "Emotional Support Player",
       "metric": {
         "starts": 16,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 16.14
       },
       "team": {
-        "team_key": "359.l.94736.t.11",
-        "team_name": "HackTheMainframe",
-        "manager_names": "brandon"
+        "team_key": "359.l.94736.t.7",
+        "team_name": "Mmmmm...Gurley Fries",
+        "manager_names": "Josh"
       },
       "player": {
-        "player_key": "359.p.8447",
-        "player_name": "Mason Crosby",
-        "player_position": "K"
+        "player_key": "359.p.25802",
+        "player_name": "T.Y. Hilton",
+        "player_position": "WR"
       }
     },
     {
