@@ -11,3 +11,4 @@ Recommended reading order:
 6) 06_COMMON_ISSUES.md - known pitfalls and fixes
 7) 07_PRODUCT_DECISIONS.md - key decisions and rationale
 8) 08_UX_NOTES.md - UX structure and UI conventions
+9) 09_QUICK_START.md - one-page setup and runbook

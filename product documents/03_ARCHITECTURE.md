@@ -21,6 +21,8 @@ The system is a static-site pipeline:
 3) Insights
    - `scripts/generate_insights.py` builds season awards JSON.
    - `scripts/generate_team_insights.py` builds team awards JSON.
+   - `scripts/generate_all_seasons_insights.py` builds the All Seasons aggregate.
+   - `config/team_identity_overrides.json` resolves manager identity across years.
 
 4) Frontend
    - `site/index.html`, `site/styles.css`, `site/app.js`
@@ -34,3 +36,4 @@ Yahoo API -> raw XML -> SQLite -> export JSON -> render in static site
 - Raw API: `data/raw/<season>/<league_key>/*.xml`
 - SQLite: `data/processed/fantasy_insights.sqlite`
 - Site JSON: `site/data/*.json`
+- All Seasons JSON: `site/data/insights_all.json`, `site/data/insights_all_teams.json`

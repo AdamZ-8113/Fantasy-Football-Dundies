@@ -8,9 +8,10 @@ Create a "Wrapped" style site for a long-running Yahoo Fantasy Football league. 
 - League commissioners who want shareable recaps
 
 ## Goals
-- Pull historical Yahoo Fantasy data (2012 to 2025 for this league).
+- Pull historical Yahoo Fantasy data (2013 to 2025 for this league).
 - Compute awards across performance, heartbreak, draft/value, start/sit, player stats, and fun categories.
 - Support team-specific insights (per team/manager) and a league-wide view.
+- Provide an "All Seasons" aggregate view and a playoffs-only awards section.
 - Publish as a static site via GitHub Pages with no paid hosting.
 
 ## Non-goals
@@ -24,6 +25,8 @@ Create a "Wrapped" style site for a long-running Yahoo Fantasy Football league. 
 - Automated insight generation into `site/data/*.json`.
 - Static site rendering with themes and season/team pickers.
 - Team-specific insights view that hides the league overview panel.
+- All Seasons aggregate insights with per-award season chips.
+- Playoffs awards section.
 
 ## Key outputs
 - `data/processed/fantasy_insights.sqlite` (local only)
@@ -37,7 +40,8 @@ Create a "Wrapped" style site for a long-running Yahoo Fantasy Football league. 
 - Static site only (no server).
 
 ## Success criteria
-- 2012-2025 season data available in the site.
+- 2013-2025 season data available in the site.
 - 2025 appears in season picker and shows awards.
+- All Seasons view appears and shows season chips for each award.
 - Team picker toggles team-specific awards correctly.
 - Site updated within minutes of publishing (after cache purge if using Cloudflare).

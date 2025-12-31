@@ -35,10 +35,12 @@ python scripts/backfill_draft_results.py
 python scripts/backfill_stat_modifiers.py
 python scripts/backfill_roster_injuries.py
 python scripts/backfill_player_stats.py
+python scripts/backfill_player_points_from_raw.py
 python scripts/export_site_data.py
 python scripts/export_injury_reports.py
 python scripts/generate_insights.py
 python scripts/generate_team_insights.py
+python scripts/generate_all_seasons_insights.py
 ```
 
 ## Single-season run
@@ -49,6 +51,11 @@ Option B: target one league key:
 python scripts/sync_all.py --only <league_key>
 python scripts/generate_insights.py --season 2024
 python scripts/generate_team_insights.py --season 2024
+```
+
+## All Seasons aggregate
+```
+python scripts/generate_all_seasons_insights.py
 ```
 
 ## Publish

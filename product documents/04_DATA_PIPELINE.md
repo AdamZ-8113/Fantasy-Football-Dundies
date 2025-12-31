@@ -38,6 +38,7 @@ python scripts/backfill_draft_results.py
 python scripts/backfill_stat_modifiers.py
 python scripts/backfill_roster_injuries.py
 python scripts/backfill_player_stats.py
+python scripts/backfill_player_points_from_raw.py
 ```
 4) Export site data
 ```
@@ -48,6 +49,7 @@ python scripts/export_injury_reports.py
 ```
 python scripts/generate_insights.py
 python scripts/generate_team_insights.py
+python scripts/generate_all_seasons_insights.py
 ```
 
 ## Single-season workflows
@@ -68,6 +70,18 @@ Generate insights for a single season:
 python scripts/generate_insights.py --season 2024
 python scripts/generate_team_insights.py --season 2024
 ```
+
+Generate all-seasons aggregate view:
+```
+python scripts/generate_all_seasons_insights.py
+```
+
+## Notes
+- `backfill_player_points_from_raw.py` populates `player_points` totals from saved XML.
+  This is needed for older seasons where stat breakdown values are zero but Yahoo includes
+  a `player_points` total.
+- All-seasons aggregation uses a stable team identity map. Update
+  `config/team_identity_overrides.json` if managers changed display names.
 
 ## Helpful flags
 - `sync_all.py --skip-existing`: skips leagues with existing data

@@ -29,3 +29,19 @@ Raw XML file names can be long. The project now uses hashed names to avoid path 
 If GitHub Pages is behind Cloudflare:
 - purge Cloudflare cache
 - verify the raw GH Pages content is updated first
+
+## Older seasons show zero player points
+Yahoo sometimes returns zeroed stat breakdowns but includes `player_points`.
+Fix:
+```
+python scripts/backfill_player_points_from_raw.py
+python scripts/generate_insights.py
+python scripts/generate_team_insights.py
+```
+
+## Missing teams in All Seasons picker
+All Seasons uses manager identity mapping, so historic team names roll into a single picker entry.
+Update `config/team_identity_overrides.json` if a manager name changed or is hidden.
+
+## Custom domain returns 404
+Ensure `site/CNAME` exists and matches the live domain, then re-publish `gh-pages`.
