@@ -98,14 +98,84 @@ def compute_team_insights_for_league(conn, league_key, season):
         late_round = 10 if max_round >= 10 else max(1, (max_round // 2) + 1)
 
     playoff_teams = set()
+    playoff_matchups = []
+    playoff_weeks = set()
     for (_week, _mid), teams in matchups.items():
         if not teams:
             continue
         is_playoffs = teams[0].get("is_playoffs")
         is_consolation = teams[0].get("is_consolation")
         if is_playoffs == 1 and is_consolation != 1:
+            playoff_weeks.add(teams[0].get("week"))
+            playoff_matchups.append((teams[0].get("week"), teams[0].get("matchup_id"), teams))
             for team in teams:
                 playoff_teams.add(team["team_key"])
+
+    seed_by_team = {
+        team_key: row.get("rank") for team_key, row in standings.items()
+    } if standings else {}
+
+    playoff_team_points = defaultdict(list)
+    playoff_team_games = defaultdict(list)
+    final_week = max(playoff_weeks) if playoff_weeks else None
+    final_matchups = [
+        m for m in playoff_matchups if final_week is not None and m[0] == final_week
+    ]
+    finalists = set()
+    for week, matchup_id, teams in playoff_matchups:
+        if len(teams) < 2:
+            continue
+        teams_sorted = sorted(teams, key=lambda t: t.get("points") or -9999, reverse=True)
+        top = teams_sorted[0]
+        bottom = teams_sorted[1]
+        if top.get("points") is None or bottom.get("points") is None:
+            continue
+        winner_key = top["team_key"]
+        loser_key = bottom["team_key"]
+        margin = abs(top["points"] - bottom["points"])
+        for team in teams_sorted[:2]:
+            opponent_key = loser_key if team["team_key"] == winner_key else winner_key
+            result = "win" if team["team_key"] == winner_key else "loss"
+            playoff_team_points[team["team_key"]].append(team["points"])
+            playoff_team_games[team["team_key"]].append(
+                {
+                    "week": week,
+                    "matchup_id": matchup_id,
+                    "points": team["points"],
+                    "opponent_key": opponent_key,
+                    "margin": margin,
+                    "result": result,
+                }
+            )
+
+    for week, matchup_id, teams in final_matchups:
+        for team in teams:
+            finalists.add(team["team_key"])
+
+    cinderella_team = None
+    if finalists and seed_by_team:
+        for team_key in finalists:
+            seed = seed_by_team.get(team_key)
+            if seed is None:
+                continue
+            if cinderella_team is None or seed > cinderella_team[0]:
+                cinderella_team = (seed, team_key)
+
+    early_exit_team = None
+    if seed_by_team:
+        candidates = []
+        for team_key, games in playoff_team_games.items():
+            if not games:
+                continue
+            first_game = min(games, key=lambda g: g["week"])
+            if first_game["result"] != "loss":
+                continue
+            seed = seed_by_team.get(team_key)
+            if seed is None:
+                continue
+            candidates.append((seed, team_key, first_game))
+        if candidates:
+            early_exit_team = min(candidates, key=lambda item: item[0])
 
     team_payloads = []
     for team_key in sorted(team_map.keys()):
@@ -220,6 +290,196 @@ def compute_team_insights_for_league(conn, league_key, season):
                 )
         else:
             gi.add_missing(missing, "schedule_screwed_me", "Missing weekly averages.")
+        # Playoffs
+        playoff_games = playoff_team_games.get(team_key, [])
+        playoff_points = playoff_team_points.get(team_key, [])
+        reg_weeks_count = (playoff_start - 1) if playoff_start else end_week
+        if reg_weeks_count < 1:
+            reg_weeks_count = end_week
+        regular_avg = (team_points_for_map.get(team_key, 0) / reg_weeks_count) if reg_weeks_count else None
+
+        if playoff_games:
+            best_game = max(playoff_games, key=lambda game: game["points"])
+            insights.append(
+                {
+                    "id": "playoff_mvp",
+                    "title": "Playoff MVP",
+                    "metric": {
+                        "week": best_game["week"],
+                        "matchup_id": best_game["matchup_id"],
+                        "points": round(best_game["points"], 2),
+                    },
+                    "team": gi.team_info(team_map, team_key),
+                }
+            )
+
+            avg_points = statistics.mean(playoff_points) if playoff_points else 0
+            insights.append(
+                {
+                    "id": "clutch_crown",
+                    "title": "Clutch Crown",
+                    "metric": {
+                        "avg_points": round(avg_points, 2),
+                        "games": len(playoff_points),
+                    },
+                    "team": gi.team_info(team_map, team_key),
+                }
+            )
+
+            if seed_by_team:
+                team_seed = seed_by_team.get(team_key)
+                best_gap = None
+                for game in playoff_games:
+                    if game["result"] != "win":
+                        continue
+                    opp_seed = seed_by_team.get(game["opponent_key"])
+                    if team_seed is None or opp_seed is None:
+                        continue
+                    if team_seed > opp_seed:
+                        gap = team_seed - opp_seed
+                        if best_gap is None or gap > best_gap[0]:
+                            best_gap = (gap, opp_seed, game)
+                if best_gap:
+                    gap, opp_seed, game = best_gap
+                    insights.append(
+                        {
+                            "id": "giant_killer",
+                            "title": "Giant Killer",
+                            "metric": {
+                                "seed_gap": gap,
+                                "winner_seed": team_seed,
+                                "loser_seed": opp_seed,
+                                "week": game["week"],
+                            },
+                            "team": gi.team_info(team_map, team_key),
+                        }
+                    )
+                else:
+                    gi.add_missing(missing, "giant_killer", "No playoff seed upsets.")
+            else:
+                gi.add_missing(missing, "giant_killer", "Standings ranks missing.")
+
+            if cinderella_team and cinderella_team[1] == team_key:
+                insights.append(
+                    {
+                        "id": "cinderella_run",
+                        "title": "Cinderella Run",
+                        "metric": {"seed": cinderella_team[0], "week": final_week},
+                        "team": gi.team_info(team_map, team_key),
+                    }
+                )
+            else:
+                gi.add_missing(missing, "cinderella_run", "Did not have the lowest seed in the final.")
+
+            playoff_losses = [g for g in playoff_games if g["result"] == "loss"]
+            if playoff_losses:
+                closest_loss = min(playoff_losses, key=lambda game: game["margin"])
+                insights.append(
+                    {
+                        "id": "finals_heartbreaker",
+                        "title": "Finals Heartbreaker",
+                        "metric": {
+                            "week": closest_loss["week"],
+                            "matchup_id": closest_loss["matchup_id"],
+                            "margin": round(closest_loss["margin"], 2),
+                            "opponent": gi.team_info(team_map, closest_loss["opponent_key"]),
+                        },
+                        "team": gi.team_info(team_map, team_key),
+                    }
+                )
+            else:
+                gi.add_missing(missing, "finals_heartbreaker", "No playoff losses.")
+
+            playoff_wins = [g for g in playoff_games if g["result"] == "win"]
+            if playoff_wins:
+                biggest_win = max(playoff_wins, key=lambda game: game["margin"])
+                insights.append(
+                    {
+                        "id": "blowout_banner",
+                        "title": "Blowout Banner",
+                        "metric": {
+                            "week": biggest_win["week"],
+                            "matchup_id": biggest_win["matchup_id"],
+                            "margin": round(biggest_win["margin"], 2),
+                            "opponent": gi.team_info(team_map, biggest_win["opponent_key"]),
+                        },
+                        "team": gi.team_info(team_map, team_key),
+                    }
+                )
+            else:
+                gi.add_missing(missing, "blowout_banner", "No playoff wins.")
+
+            if final_matchups:
+                title_game = None
+                for week, matchup_id, teams in final_matchups:
+                    for team in teams:
+                        if team.get("team_key") == team_key:
+                            title_game = (week, matchup_id, team.get("points"))
+                if title_game and title_game[2] is not None:
+                    insights.append(
+                        {
+                            "id": "championship_hammer",
+                            "title": "Championship Hammer",
+                            "metric": {
+                                "week": title_game[0],
+                                "matchup_id": title_game[1],
+                                "points": round(title_game[2], 2),
+                            },
+                            "team": gi.team_info(team_map, team_key),
+                        }
+                    )
+                else:
+                    gi.add_missing(missing, "championship_hammer", "Did not reach the title game.")
+            else:
+                gi.add_missing(missing, "championship_hammer", "Final matchup data missing.")
+
+            if regular_avg is not None:
+                playoff_avg = statistics.mean(playoff_points) if playoff_points else 0
+                insights.append(
+                    {
+                        "id": "playoff_peak",
+                        "title": "Playoff Peak",
+                        "metric": {
+                            "regular_avg": round(regular_avg, 2),
+                            "playoff_avg": round(playoff_avg, 2),
+                            "delta": round(playoff_avg - regular_avg, 2),
+                        },
+                        "team": gi.team_info(team_map, team_key),
+                    }
+                )
+            else:
+                gi.add_missing(missing, "playoff_peak", "Missing regular-season averages.")
+
+            if early_exit_team and early_exit_team[1] == team_key:
+                seed, _team_key, game = early_exit_team
+                insights.append(
+                    {
+                        "id": "early_exit",
+                        "title": "Early Exit",
+                        "metric": {
+                            "seed": seed,
+                            "week": game["week"],
+                            "margin": round(game["margin"], 2),
+                        },
+                        "team": gi.team_info(team_map, team_key),
+                    }
+                )
+            else:
+                gi.add_missing(missing, "early_exit", "Did not suffer an early playoff loss as a top seed.")
+        else:
+            for award_id in [
+                "playoff_mvp",
+                "clutch_crown",
+                "giant_killer",
+                "cinderella_run",
+                "finals_heartbreaker",
+                "blowout_banner",
+                "championship_hammer",
+                "playoff_peak",
+                "early_exit",
+            ]:
+                gi.add_missing(missing, award_id, "No playoff games recorded.")
+
         # Draft & Value
         team_picks = [row for row in draft_picks if row.get("team_key") == team_key]
         if not team_picks:

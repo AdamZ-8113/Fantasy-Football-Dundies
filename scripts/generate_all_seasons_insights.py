@@ -14,6 +14,10 @@ EVENT_RULES = {
     "blowout_victim": ("max", "margin"),
     "peak_week": ("max", "points"),
     "rock_bottom": ("min", "points"),
+    "playoff_mvp": ("max", "points"),
+    "finals_heartbreaker": ("min", "margin"),
+    "blowout_banner": ("max", "margin"),
+    "championship_hammer": ("max", "points"),
 }
 
 
@@ -250,6 +254,22 @@ def score_entry(entry, award_id):
     if award_id in {"rock_bottom"}:
         points = to_float(metric.get("points")) or 0
         return (-points, season)
+
+    if award_id == "clutch_crown":
+        return (to_float(metric.get("avg_points")) or 0, season)
+
+    if award_id == "giant_killer":
+        return (to_float(metric.get("seed_gap")) or 0, season)
+
+    if award_id == "cinderella_run":
+        return (to_float(metric.get("seed")) or 0, season)
+
+    if award_id == "playoff_peak":
+        return (to_float(metric.get("delta")) or 0, season)
+
+    if award_id == "early_exit":
+        seed = to_float(metric.get("seed")) or 0
+        return (-seed, season)
 
     return (season,)
 
