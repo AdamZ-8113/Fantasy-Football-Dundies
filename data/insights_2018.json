@@ -1,7 +1,7 @@
 {
   "season": "2018",
   "league_key": "380.l.94024",
-  "generated_at": "2025-12-31 00:36:02",
+  "generated_at": "2025-12-31 08:16:05",
   "insights": [
     {
       "id": "league_champion_dna",
@@ -251,43 +251,43 @@
       "id": "draft_steal",
       "title": "Draft Steal of the Year",
       "metric": {
-        "draft_rank": 170,
-        "season_rank": 12,
-        "delta": 158,
-        "season_points": 0.0,
-        "round": 15,
-        "pick": 170
+        "draft_rank": 157,
+        "season_rank": 1,
+        "delta": 156,
+        "season_points": 495.74,
+        "round": 14,
+        "pick": 157
       },
       "team": {
-        "team_key": "380.l.94024.t.2",
-        "team_name": "KeKe Do You Love Me?",
-        "manager_names": "Ray"
+        "team_key": "380.l.94024.t.4",
+        "team_name": "WhereDiggsAt?",
+        "manager_names": "brandon"
       },
       "player": {
-        "player_key": "380.p.100012",
-        "player_name": "Chiefs",
-        "player_position": "DEF"
+        "player_key": "380.p.30123",
+        "player_name": "Patrick Mahomes",
+        "player_position": "QB"
       }
     },
     {
       "id": "reached_and_regretted",
       "title": "Reached and Regretted",
       "metric": {
-        "draft_rank": 30,
-        "season_rank": 301,
-        "delta": -271,
+        "draft_rank": 1,
+        "season_rank": 297,
+        "delta": -296,
         "season_points": 0.0,
-        "round": 3,
-        "pick": 30
+        "round": 1,
+        "pick": 1
       },
       "team": {
-        "team_key": "380.l.94024.t.12",
-        "team_name": "Wilson's BlueBallers",
-        "manager_names": "SeanI"
+        "team_key": "380.l.94024.t.1",
+        "team_name": "Kollusion_Killers",
+        "manager_names": "Chris"
       },
       "player": {
-        "player_key": "380.p.9317",
-        "player_name": "LeSean McCoy",
+        "player_key": "380.p.26671",
+        "player_name": "Le'Veon Bell",
         "player_position": "RB"
       }
     },
@@ -314,38 +314,38 @@
       "id": "late_round_wizardry",
       "title": "Late-Round Wizardry",
       "metric": {
-        "round": 10,
-        "pick": 109,
-        "season_points": 0.0,
+        "round": 14,
+        "pick": 157,
+        "season_points": 495.74,
         "late_round_threshold": 10
       },
       "team": {
-        "team_key": "380.l.94024.t.6",
-        "team_name": "Rollin J's",
-        "manager_names": "ronny"
+        "team_key": "380.l.94024.t.4",
+        "team_name": "WhereDiggsAt?",
+        "manager_names": "brandon"
       },
       "player": {
-        "player_key": "380.p.24318",
-        "player_name": "LeGarrette Blount",
-        "player_position": "RB"
+        "player_key": "380.p.30123",
+        "player_name": "Patrick Mahomes",
+        "player_position": "QB"
       }
     },
     {
       "id": "bench_war_crime",
       "title": "Bench War Crime",
       "metric": {
-        "week": 1,
-        "points": 0.0
+        "week": 14,
+        "points": 47.8
       },
       "team": {
-        "team_key": "380.l.94024.t.1",
-        "team_name": "Kollusion_Killers",
-        "manager_names": "Chris"
+        "team_key": "380.l.94024.t.4",
+        "team_name": "WhereDiggsAt?",
+        "manager_names": "brandon"
       },
       "player": {
-        "player_key": "380.p.23999",
-        "player_name": "Dez Bryant",
-        "player_position": "WR"
+        "player_key": "380.p.29279",
+        "player_name": "Derrick Henry",
+        "player_position": "RB"
       }
     },
     {
@@ -353,35 +353,47 @@
       "title": "Set-and-Forget Legend",
       "metric": {
         "starts": 15,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 33.05
       },
       "team": {
-        "team_key": "380.l.94024.t.11",
-        "team_name": "Pimpin\u2019 Ain\u2019t Breesy",
-        "manager_names": "cathy"
+        "team_key": "380.l.94024.t.4",
+        "team_name": "WhereDiggsAt?",
+        "manager_names": "brandon"
       },
       "player": {
-        "player_key": "380.p.25876",
-        "player_name": "Marvin Jones Jr.",
-        "player_position": "WR"
+        "player_key": "380.p.30123",
+        "player_name": "Patrick Mahomes",
+        "player_position": "QB"
+      }
+    },
+    {
+      "id": "overthinker",
+      "title": "Overthinker",
+      "metric": {
+        "games": 6
+      },
+      "team": {
+        "team_key": "380.l.94024.t.2",
+        "team_name": "KeKe Do You Love Me?",
+        "manager_names": "Ray"
       }
     },
     {
       "id": "why_dont_he_want_me",
       "title": "Why Don't He Want Me, Man?",
       "metric": {
-        "bench_points": 0.0,
-        "bench_weeks": 2
+        "bench_points": 321.7,
+        "bench_weeks": 15
       },
       "player": {
-        "player_key": "380.p.23999",
-        "player_name": "Dez Bryant",
-        "player_position": "WR"
+        "player_key": "380.p.6763",
+        "player_name": "Philip Rivers",
+        "player_position": "QB"
       },
       "team": {
-        "team_key": "380.l.94024.t.1",
-        "team_name": "Kollusion_Killers",
-        "manager_names": "Chris"
+        "team_key": "380.l.94024.t.11",
+        "team_name": "Pimpin\u2019 Ain\u2019t Breesy",
+        "manager_names": "cathy"
       }
     },
     {
@@ -429,17 +441,17 @@
       "title": "Emotional Support Player",
       "metric": {
         "starts": 15,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 33.05
       },
       "team": {
-        "team_key": "380.l.94024.t.11",
-        "team_name": "Pimpin\u2019 Ain\u2019t Breesy",
-        "manager_names": "cathy"
+        "team_key": "380.l.94024.t.4",
+        "team_name": "WhereDiggsAt?",
+        "manager_names": "brandon"
       },
       "player": {
-        "player_key": "380.p.25876",
-        "player_name": "Marvin Jones Jr.",
-        "player_position": "WR"
+        "player_key": "380.p.30123",
+        "player_name": "Patrick Mahomes",
+        "player_position": "QB"
       }
     },
     {
@@ -517,9 +529,9 @@
         "first_half_win_pct": 0.5
       },
       "team": {
-        "team_key": "380.l.94024.t.5",
-        "team_name": "Harbaughcalypse Now",
-        "manager_names": "Don"
+        "team_key": "380.l.94024.t.4",
+        "team_name": "WhereDiggsAt?",
+        "manager_names": "brandon"
       }
     },
     {

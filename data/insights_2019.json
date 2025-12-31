@@ -1,7 +1,7 @@
 {
   "season": "2019",
   "league_key": "390.l.270609",
-  "generated_at": "2025-12-31 00:36:02",
+  "generated_at": "2025-12-31 08:16:05",
   "insights": [
     {
       "id": "league_champion_dna",
@@ -251,21 +251,21 @@
       "id": "draft_steal",
       "title": "Draft Steal of the Year",
       "metric": {
-        "draft_rank": 179,
-        "season_rank": 4,
-        "delta": 175,
-        "season_points": 0.0,
-        "round": 15,
-        "pick": 179
+        "draft_rank": 164,
+        "season_rank": 31,
+        "delta": 133,
+        "season_points": 243.0,
+        "round": 14,
+        "pick": 164
       },
       "team": {
-        "team_key": "390.l.270609.t.11",
-        "team_name": "HoldMyBeer\ud83c\udf7b",
-        "manager_names": "brandon"
+        "team_key": "390.l.270609.t.6",
+        "team_name": "Rollin' w/ Mahomes",
+        "manager_names": "cathy"
       },
       "player": {
-        "player_key": "390.p.100005",
-        "player_name": "Browns",
+        "player_key": "390.p.100017",
+        "player_name": "Patriots",
         "player_position": "DEF"
       }
     },
@@ -273,21 +273,21 @@
       "id": "reached_and_regretted",
       "title": "Reached and Regretted",
       "metric": {
-        "draft_rank": 39,
-        "season_rank": 293,
-        "delta": -254,
-        "season_points": 0.0,
-        "round": 4,
-        "pick": 39
+        "draft_rank": 22,
+        "season_rank": 244,
+        "delta": -222,
+        "season_points": 16.1,
+        "round": 2,
+        "pick": 22
       },
       "team": {
-        "team_key": "390.l.270609.t.2",
-        "team_name": "Harbaughcalypse Now",
-        "manager_names": "Don"
+        "team_key": "390.l.270609.t.8",
+        "team_name": "Sac Tappers",
+        "manager_names": "ronny"
       },
       "player": {
-        "player_key": "390.p.9496",
-        "player_name": "Julian Edelman",
+        "player_key": "390.p.24171",
+        "player_name": "Antonio Brown",
         "player_position": "WR"
       }
     },
@@ -296,17 +296,17 @@
       "title": "Draft Bust Hall of Fame",
       "metric": {
         "round": 1,
-        "pick": 1,
-        "season_points": 0.0
+        "pick": 8,
+        "season_points": 141.5
       },
       "team": {
-        "team_key": "390.l.270609.t.9",
-        "team_name": "Scoregasm",
-        "manager_names": "Adam"
+        "team_key": "390.l.270609.t.10",
+        "team_name": "TrumpThatBitch",
+        "manager_names": "matt, Thomas"
       },
       "player": {
-        "player_key": "390.p.30972",
-        "player_name": "Saquon Barkley",
+        "player_key": "390.p.28474",
+        "player_name": "David Johnson",
         "player_position": "RB"
       }
     },
@@ -314,38 +314,38 @@
       "id": "late_round_wizardry",
       "title": "Late-Round Wizardry",
       "metric": {
-        "round": 10,
-        "pick": 110,
-        "season_points": 0.0,
+        "round": 11,
+        "pick": 128,
+        "season_points": 487.68,
         "late_round_threshold": 10
       },
       "team": {
-        "team_key": "390.l.270609.t.5",
-        "team_name": "My Buddy and Mia",
-        "manager_names": "christopher"
+        "team_key": "390.l.270609.t.10",
+        "team_name": "TrumpThatBitch",
+        "manager_names": "matt, Thomas"
       },
       "player": {
-        "player_key": "390.p.29315",
-        "player_name": "Austin Hooper",
-        "player_position": "TE"
+        "player_key": "390.p.31002",
+        "player_name": "Lamar Jackson",
+        "player_position": "QB"
       }
     },
     {
       "id": "bench_war_crime",
       "title": "Bench War Crime",
       "metric": {
-        "week": 1,
-        "points": 0.0
+        "week": 7,
+        "points": 53.76
       },
       "team": {
-        "team_key": "390.l.270609.t.1",
-        "team_name": "Kollusion_Killers",
-        "manager_names": "Chris"
+        "team_key": "390.l.270609.t.8",
+        "team_name": "Sac Tappers",
+        "manager_names": "ronny"
       },
       "player": {
-        "player_key": "390.p.29307",
-        "player_name": "Kenyan Drake",
-        "player_position": "RB"
+        "player_key": "390.p.7200",
+        "player_name": "Aaron Rodgers",
+        "player_position": "QB"
       }
     },
     {
@@ -353,35 +353,47 @@
       "title": "Set-and-Forget Legend",
       "metric": {
         "starts": 15,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 32.51
       },
       "team": {
-        "team_key": "390.l.270609.t.1",
-        "team_name": "Kollusion_Killers",
-        "manager_names": "Chris"
+        "team_key": "390.l.270609.t.10",
+        "team_name": "TrumpThatBitch",
+        "manager_names": "matt, Thomas"
       },
       "player": {
-        "player_key": "390.p.28592",
-        "player_name": "Darren Waller",
-        "player_position": "TE"
+        "player_key": "390.p.31002",
+        "player_name": "Lamar Jackson",
+        "player_position": "QB"
+      }
+    },
+    {
+      "id": "overthinker",
+      "title": "Overthinker",
+      "metric": {
+        "games": 5
+      },
+      "team": {
+        "team_key": "390.l.270609.t.7",
+        "team_name": "Easy Win",
+        "manager_names": "--hidden--"
       }
     },
     {
       "id": "why_dont_he_want_me",
       "title": "Why Don't He Want Me, Man?",
       "metric": {
-        "bench_points": 0.0,
-        "bench_weeks": 8
+        "bench_points": 210.36,
+        "bench_weeks": 9
       },
       "player": {
-        "player_key": "390.p.29307",
-        "player_name": "Kenyan Drake",
-        "player_position": "RB"
+        "player_key": "390.p.5479",
+        "player_name": "Drew Brees",
+        "player_position": "QB"
       },
       "team": {
-        "team_key": "390.l.270609.t.1",
-        "team_name": "Kollusion_Killers",
-        "manager_names": "Chris"
+        "team_key": "390.l.270609.t.9",
+        "team_name": "Scoregasm",
+        "manager_names": "Adam"
       }
     },
     {
@@ -429,17 +441,17 @@
       "title": "Emotional Support Player",
       "metric": {
         "starts": 15,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 32.51
       },
       "team": {
-        "team_key": "390.l.270609.t.1",
-        "team_name": "Kollusion_Killers",
-        "manager_names": "Chris"
+        "team_key": "390.l.270609.t.10",
+        "team_name": "TrumpThatBitch",
+        "manager_names": "matt, Thomas"
       },
       "player": {
-        "player_key": "390.p.28592",
-        "player_name": "Darren Waller",
-        "player_position": "TE"
+        "player_key": "390.p.31002",
+        "player_name": "Lamar Jackson",
+        "player_position": "QB"
       }
     },
     {

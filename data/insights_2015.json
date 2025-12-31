@@ -1,7 +1,7 @@
 {
   "season": "2015",
   "league_key": "348.l.66994",
-  "generated_at": "2025-12-31 00:36:02",
+  "generated_at": "2025-12-31 08:16:05",
   "insights": [
     {
       "id": "league_champion_dna",
@@ -251,44 +251,44 @@
       "id": "draft_steal",
       "title": "Draft Steal of the Year",
       "metric": {
-        "draft_rank": 186,
-        "season_rank": 9,
-        "delta": 177,
-        "season_points": 0.0,
+        "draft_rank": 185,
+        "season_rank": 51,
+        "delta": 134,
+        "season_points": 200.1,
         "round": 16,
-        "pick": 186
+        "pick": 185
       },
       "team": {
-        "team_key": "348.l.66994.t.8",
-        "team_name": "Wilson's BlueBallers",
-        "manager_names": "SeanI"
+        "team_key": "348.l.66994.t.12",
+        "team_name": "Horton Hears A Julio",
+        "manager_names": "Josh"
       },
       "player": {
-        "player_key": "348.p.100009",
-        "player_name": "Packers",
-        "player_position": "DEF"
+        "player_key": "348.p.28474",
+        "player_name": "David Johnson",
+        "player_position": "RB"
       }
     },
     {
       "id": "reached_and_regretted",
       "title": "Reached and Regretted",
       "metric": {
-        "draft_rank": 15,
+        "draft_rank": 72,
         "season_rank": 299,
-        "delta": -284,
+        "delta": -227,
         "season_points": 0.0,
-        "round": 2,
-        "pick": 15
+        "round": 6,
+        "pick": 72
       },
       "team": {
-        "team_key": "348.l.66994.t.11",
-        "team_name": "Smoke Two Blounts",
-        "manager_names": "christopher"
+        "team_key": "348.l.66994.t.4",
+        "team_name": "HateUsCuzTheyAnus",
+        "manager_names": "ronny, --hidden--"
       },
       "player": {
-        "player_key": "348.p.9317",
-        "player_name": "LeSean McCoy",
-        "player_position": "RB"
+        "player_key": "348.p.24553",
+        "player_name": "Victor Cruz",
+        "player_position": "WR"
       }
     },
     {
@@ -297,7 +297,7 @@
       "metric": {
         "round": 1,
         "pick": 1,
-        "season_points": 0.0
+        "season_points": 82.7
       },
       "team": {
         "team_key": "348.l.66994.t.4",
@@ -314,38 +314,38 @@
       "id": "late_round_wizardry",
       "title": "Late-Round Wizardry",
       "metric": {
-        "round": 10,
-        "pick": 109,
-        "season_points": 0.0,
+        "round": 11,
+        "pick": 121,
+        "season_points": 303.9,
         "late_round_threshold": 10
       },
       "team": {
-        "team_key": "348.l.66994.t.1",
-        "team_name": "Kollusion_Killers",
-        "manager_names": "Chris"
+        "team_key": "348.l.66994.t.4",
+        "team_name": "HateUsCuzTheyAnus",
+        "manager_names": "ronny, --hidden--"
       },
       "player": {
-        "player_key": "348.p.25876",
-        "player_name": "Marvin Jones Jr.",
-        "player_position": "WR"
+        "player_key": "348.p.6760",
+        "player_name": "Eli Manning",
+        "player_position": "QB"
       }
     },
     {
       "id": "bench_war_crime",
       "title": "Bench War Crime",
       "metric": {
-        "week": 1,
-        "points": 0.0
+        "week": 8,
+        "points": 60.3
       },
       "team": {
-        "team_key": "348.l.66994.t.1",
-        "team_name": "Kollusion_Killers",
-        "manager_names": "Chris"
+        "team_key": "348.l.66994.t.9",
+        "team_name": "breesus is my jesus",
+        "manager_names": "cathy"
       },
       "player": {
-        "player_key": "348.p.23984",
-        "player_name": "C.J. Spiller",
-        "player_position": "RB"
+        "player_key": "348.p.5479",
+        "player_name": "Drew Brees",
+        "player_position": "QB"
       }
     },
     {
@@ -353,35 +353,47 @@
       "title": "Set-and-Forget Legend",
       "metric": {
         "starts": 15,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 28.82
+      },
+      "team": {
+        "team_key": "348.l.66994.t.11",
+        "team_name": "Smoke Two Blounts",
+        "manager_names": "christopher"
+      },
+      "player": {
+        "player_key": "348.p.24788",
+        "player_name": "Cam Newton",
+        "player_position": "QB"
+      }
+    },
+    {
+      "id": "overthinker",
+      "title": "Overthinker",
+      "metric": {
+        "games": 7
       },
       "team": {
         "team_key": "348.l.66994.t.10",
         "team_name": "Who Scores an 85.6?",
         "manager_names": "brandon"
-      },
-      "player": {
-        "player_key": "348.p.5228",
-        "player_name": "Tom Brady",
-        "player_position": "QB"
       }
     },
     {
       "id": "why_dont_he_want_me",
       "title": "Why Don't He Want Me, Man?",
       "metric": {
-        "bench_points": 0.0,
-        "bench_weeks": 10
+        "bench_points": 336.86,
+        "bench_weeks": 16
       },
       "player": {
-        "player_key": "348.p.23984",
-        "player_name": "C.J. Spiller",
-        "player_position": "RB"
+        "player_key": "348.p.9265",
+        "player_name": "Matthew Stafford",
+        "player_position": "QB"
       },
       "team": {
-        "team_key": "348.l.66994.t.1",
-        "team_name": "Kollusion_Killers",
-        "manager_names": "Chris"
+        "team_key": "348.l.66994.t.3",
+        "team_name": "Who gets a C- draft?",
+        "manager_names": "Adam"
       }
     },
     {
@@ -424,16 +436,16 @@
       "title": "Emotional Support Player",
       "metric": {
         "starts": 15,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 28.82
       },
       "team": {
-        "team_key": "348.l.66994.t.10",
-        "team_name": "Who Scores an 85.6?",
-        "manager_names": "brandon"
+        "team_key": "348.l.66994.t.11",
+        "team_name": "Smoke Two Blounts",
+        "manager_names": "christopher"
       },
       "player": {
-        "player_key": "348.p.5228",
-        "player_name": "Tom Brady",
+        "player_key": "348.p.24788",
+        "player_name": "Cam Newton",
         "player_position": "QB"
       }
     },
