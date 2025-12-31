@@ -1,7 +1,7 @@
 {
   "season": "2020",
   "league_key": "399.l.86648",
-  "generated_at": "2025-12-31 00:36:02",
+  "generated_at": "2025-12-31 08:04:25",
   "insights": [
     {
       "id": "league_champion_dna",
@@ -251,43 +251,43 @@
       "id": "draft_steal",
       "title": "Draft Steal of the Year",
       "metric": {
-        "draft_rank": 176,
-        "season_rank": 13,
-        "delta": 163,
-        "season_points": 0.0,
+        "draft_rank": 171,
+        "season_rank": 24,
+        "delta": 147,
+        "season_points": 250.94,
         "round": 15,
-        "pick": 176
+        "pick": 171
       },
       "team": {
-        "team_key": "399.l.86648.t.7",
-        "team_name": "Fuck Arby's",
-        "manager_names": "ronny"
+        "team_key": "399.l.86648.t.2",
+        "team_name": "Wookie of the Year",
+        "manager_names": "--hidden--"
       },
       "player": {
-        "player_key": "399.p.100016",
-        "player_name": "Vikings",
-        "player_position": "DEF"
+        "player_key": "399.p.29235",
+        "player_name": "Jared Goff",
+        "player_position": "QB"
       }
     },
     {
       "id": "reached_and_regretted",
       "title": "Reached and Regretted",
       "metric": {
-        "draft_rank": 6,
-        "season_rank": 258,
-        "delta": -252,
-        "season_points": 0.0,
+        "draft_rank": 2,
+        "season_rank": 252,
+        "delta": -250,
+        "season_points": 15.4,
         "round": 1,
-        "pick": 6
+        "pick": 2
       },
       "team": {
-        "team_key": "399.l.86648.t.12",
-        "team_name": "Wilson's BlueBallers",
-        "manager_names": "SeanI"
+        "team_key": "399.l.86648.t.8",
+        "team_name": "Scoregasm",
+        "manager_names": "Adam"
       },
       "player": {
-        "player_key": "399.p.32702",
-        "player_name": "Clyde Edwards-Helaire",
+        "player_key": "399.p.30972",
+        "player_name": "Saquon Barkley",
         "player_position": "RB"
       }
     },
@@ -296,17 +296,17 @@
       "title": "Draft Bust Hall of Fame",
       "metric": {
         "round": 1,
-        "pick": 1,
-        "season_points": 0.0
+        "pick": 2,
+        "season_points": 15.4
       },
       "team": {
-        "team_key": "399.l.86648.t.4",
-        "team_name": "HoldMyBeer\ud83c\udf7b",
-        "manager_names": "brandon"
+        "team_key": "399.l.86648.t.8",
+        "team_name": "Scoregasm",
+        "manager_names": "Adam"
       },
       "player": {
-        "player_key": "399.p.30121",
-        "player_name": "Christian McCaffrey",
+        "player_key": "399.p.30972",
+        "player_name": "Saquon Barkley",
         "player_position": "RB"
       }
     },
@@ -315,36 +315,36 @@
       "title": "Late-Round Wizardry",
       "metric": {
         "round": 10,
-        "pick": 109,
-        "season_points": 0.0,
+        "pick": 115,
+        "season_points": 445.26,
         "late_round_threshold": 10
       },
       "team": {
-        "team_key": "399.l.86648.t.3",
-        "team_name": "Thielen a Wilson",
-        "manager_names": "Don"
+        "team_key": "399.l.86648.t.12",
+        "team_name": "Wilson's BlueBallers",
+        "manager_names": "SeanI"
       },
       "player": {
-        "player_key": "399.p.27624",
-        "player_name": "Jerick McKinnon",
-        "player_position": "RB"
+        "player_key": "399.p.7200",
+        "player_name": "Aaron Rodgers",
+        "player_position": "QB"
       }
     },
     {
       "id": "bench_war_crime",
       "title": "Bench War Crime",
       "metric": {
-        "week": 1,
-        "points": 0.0
+        "week": 8,
+        "points": 48.6
       },
       "team": {
-        "team_key": "399.l.86648.t.1",
-        "team_name": "2ManyDJs",
-        "manager_names": "Chris"
+        "team_key": "399.l.86648.t.6",
+        "team_name": "Rollin' w/ Mahomes",
+        "manager_names": "cathy"
       },
       "player": {
-        "player_key": "399.p.26777",
-        "player_name": "Chris Thompson",
+        "player_key": "399.p.30154",
+        "player_name": "Dalvin Cook",
         "player_position": "RB"
       }
     },
@@ -353,35 +353,47 @@
       "title": "Set-and-Forget Legend",
       "metric": {
         "starts": 16,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 11.93
       },
       "team": {
-        "team_key": "399.l.86648.t.12",
-        "team_name": "Wilson's BlueBallers",
-        "manager_names": "SeanI"
+        "team_key": "399.l.86648.t.9",
+        "team_name": "CovidAllStars",
+        "manager_names": "Andrew"
       },
       "player": {
-        "player_key": "399.p.26658",
-        "player_name": "Zach Ertz",
-        "player_position": "TE"
+        "player_key": "399.p.31005",
+        "player_name": "Nick Chubb",
+        "player_position": "RB"
+      }
+    },
+    {
+      "id": "overthinker",
+      "title": "Overthinker",
+      "metric": {
+        "games": 7
+      },
+      "team": {
+        "team_key": "399.l.86648.t.11",
+        "team_name": "\ud83c\udf6f The Honey Dick \ud83c\udf46",
+        "manager_names": "matt"
       }
     },
     {
       "id": "why_dont_he_want_me",
       "title": "Why Don't He Want Me, Man?",
       "metric": {
-        "bench_points": 0.0,
-        "bench_weeks": 2
+        "bench_points": 295.9,
+        "bench_weeks": 15
       },
       "player": {
-        "player_key": "399.p.26777",
-        "player_name": "Chris Thompson",
-        "player_position": "RB"
+        "player_key": "399.p.6770",
+        "player_name": "Ben Roethlisberger",
+        "player_position": "QB"
       },
       "team": {
-        "team_key": "399.l.86648.t.1",
-        "team_name": "2ManyDJs",
-        "manager_names": "Chris"
+        "team_key": "399.l.86648.t.6",
+        "team_name": "Rollin' w/ Mahomes",
+        "manager_names": "cathy"
       }
     },
     {
@@ -429,17 +441,17 @@
       "title": "Emotional Support Player",
       "metric": {
         "starts": 16,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 11.93
       },
       "team": {
-        "team_key": "399.l.86648.t.12",
-        "team_name": "Wilson's BlueBallers",
-        "manager_names": "SeanI"
+        "team_key": "399.l.86648.t.9",
+        "team_name": "CovidAllStars",
+        "manager_names": "Andrew"
       },
       "player": {
-        "player_key": "399.p.26658",
-        "player_name": "Zach Ertz",
-        "player_position": "TE"
+        "player_key": "399.p.31005",
+        "player_name": "Nick Chubb",
+        "player_position": "RB"
       }
     },
     {
@@ -517,9 +529,9 @@
         "first_half_win_pct": 0.5
       },
       "team": {
-        "team_key": "399.l.86648.t.4",
-        "team_name": "HoldMyBeer\ud83c\udf7b",
-        "manager_names": "brandon"
+        "team_key": "399.l.86648.t.5",
+        "team_name": "Holy Toledo!",
+        "manager_names": "christopher"
       }
     },
     {
