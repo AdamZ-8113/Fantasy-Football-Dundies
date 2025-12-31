@@ -26,7 +26,7 @@ If Cloudflare is in front of GitHub Pages, caching can delay updates.
 Troubleshooting:
 - Purge cache for `index.html`, `app.js`, and `/data/*` after deploy.
 - Confirm latest `app.js` via:
-  https://raw.githubusercontent.com/AdamZ-8113/Fantasy-Football-Awards-Publisher/gh-pages/app.js
+  https://raw.githubusercontent.com/AdamZ-8113/Fantasy-Football-Dundies/gh-pages/app.js
 
 ## Verification checklist
 - Season picker includes latest season.

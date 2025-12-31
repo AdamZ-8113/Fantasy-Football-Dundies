@@ -1,9 +1,9 @@
-# Fantasy Insights Agent Context
+# Fantasy Football Dundies Agent Context
 
 This document is a condensed onboarding guide for LLMs and new contributors. It captures project intent, architecture, commands, and how to safely iterate.
 
 ## Purpose
-Fantasy Insights pulls Yahoo Fantasy Football data across seasons, computes awards/insights, and publishes a static “Wrapped” site. The data pipeline is offline and produces JSON for a static frontend in `site/`.
+Fantasy Football Dundies pulls Yahoo Fantasy Football data across seasons, computes awards/insights, and publishes a static “Wrapped” site. The data pipeline is offline and produces JSON for a static frontend in `site/`.
 
 ## High-level flow
 1) Authenticate to Yahoo (OAuth 2.0 preferred).

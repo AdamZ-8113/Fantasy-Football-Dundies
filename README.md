@@ -1,6 +1,6 @@
-# Fantasy Insights
+# Fantasy Football Dundies
 
-Fantasy Insights pulls multi-season Yahoo Fantasy Football data, calculates end-of-season awards, and publishes a static "Wrapped" style site.
+Fantasy Football Dundies pulls multi-season Yahoo Fantasy Football data, calculates end-of-season awards, and publishes a static "Wrapped" style site.
 
 ## What this does
 - Authenticates to the Yahoo Fantasy Sports API.
