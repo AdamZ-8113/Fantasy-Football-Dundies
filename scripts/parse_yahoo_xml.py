@@ -336,6 +336,18 @@ def parse_player_stats(root, week):
                         "value": value,
                     }
                 )
+        player_points = find_descendant(player, "player_points")
+        if player_points is not None:
+            total = find_descendant_text(player_points, "total")
+            if total:
+                rows.append(
+                    {
+                        "player_key": player_key,
+                        "week": week,
+                        "stat_id": "player_points",
+                        "value": total,
+                    }
+                )
         players.append(_parse_player_core(player))
 
     return rows, _dedupe(players, "player_key")

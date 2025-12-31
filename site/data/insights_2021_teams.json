@@ -1,7 +1,7 @@
 {
   "season": "2021",
   "league_key": "406.l.138635",
-  "generated_at": "2025-12-29 20:40:35",
+  "generated_at": "2025-12-31 08:04:46",
   "teams": [
     {
       "team_key": "406.l.138635.t.1",
@@ -118,32 +118,10 @@
           "id": "draft_steal",
           "title": "Draft Steal of the Year",
           "metric": {
-            "draft_rank": 124,
-            "season_rank": 13,
-            "delta": 111,
-            "season_points": 0.0,
-            "round": 11,
-            "pick": 124
-          },
-          "team": {
-            "team_key": "406.l.138635.t.1",
-            "team_name": "SinkinLikeAStoneInDaSea",
-            "manager_names": "Chris"
-          },
-          "player": {
-            "player_key": "406.p.100014",
-            "player_name": "Rams",
-            "player_position": "DEF"
-          }
-        },
-        {
-          "id": "reached_and_regretted",
-          "title": "Reached and Regretted",
-          "metric": {
             "draft_rank": 69,
-            "season_rank": 287,
-            "delta": -218,
-            "season_points": 0.0,
+            "season_rank": 6,
+            "delta": 63,
+            "season_points": 389.08,
             "round": 6,
             "pick": 69
           },
@@ -159,12 +137,34 @@
           }
         },
         {
+          "id": "reached_and_regretted",
+          "title": "Reached and Regretted",
+          "metric": {
+            "draft_rank": 117,
+            "season_rank": 263,
+            "delta": -146,
+            "season_points": 8.6,
+            "round": 10,
+            "pick": 117
+          },
+          "team": {
+            "team_key": "406.l.138635.t.1",
+            "team_name": "SinkinLikeAStoneInDaSea",
+            "manager_names": "Chris"
+          },
+          "player": {
+            "player_key": "406.p.29255",
+            "player_name": "Will Fuller V",
+            "player_position": "WR"
+          }
+        },
+        {
           "id": "draft_bust",
           "title": "Draft Bust Hall of Fame",
           "metric": {
             "round": 1,
             "pick": 4,
-            "season_points": 0.0
+            "season_points": 195.3
           },
           "team": {
             "team_key": "406.l.138635.t.1",
@@ -181,9 +181,9 @@
           "id": "late_round_wizardry",
           "title": "Late-Round Wizardry",
           "metric": {
-            "round": 10,
-            "pick": 117,
-            "season_points": 0.0,
+            "round": 11,
+            "pick": 124,
+            "season_points": 115.0,
             "late_round_threshold": 10
           },
           "team": {
@@ -192,17 +192,17 @@
             "manager_names": "Chris"
           },
           "player": {
-            "player_key": "406.p.29255",
-            "player_name": "Will Fuller V",
-            "player_position": "WR"
+            "player_key": "406.p.100014",
+            "player_name": "Rams",
+            "player_position": "DEF"
           }
         },
         {
           "id": "bench_war_crime",
           "title": "Bench War Crime",
           "metric": {
-            "week": 1,
-            "points": 0.0
+            "week": 8,
+            "points": 32.2
           },
           "team": {
             "team_key": "406.l.138635.t.1",
@@ -210,8 +210,8 @@
             "manager_names": "Chris"
           },
           "player": {
-            "player_key": "406.p.26804",
-            "player_name": "Latavius Murray",
+            "player_key": "406.p.33495",
+            "player_name": "Michael Carter",
             "player_position": "RB"
           }
         },
@@ -220,7 +220,7 @@
           "title": "Set-and-Forget Legend",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 15.41
           },
           "team": {
             "team_key": "406.l.138635.t.1",
@@ -234,15 +234,27 @@
           }
         },
         {
+          "id": "overthinker",
+          "title": "Overthinker",
+          "metric": {
+            "games": 1
+          },
+          "team": {
+            "team_key": "406.l.138635.t.1",
+            "team_name": "SinkinLikeAStoneInDaSea",
+            "manager_names": "Chris"
+          }
+        },
+        {
           "id": "why_dont_he_want_me",
           "title": "Why Don't He Want Me, Man?",
           "metric": {
-            "bench_points": 0.0,
+            "bench_points": 109.9,
             "bench_weeks": 12
           },
           "player": {
-            "player_key": "406.p.26804",
-            "player_name": "Latavius Murray",
+            "player_key": "406.p.33495",
+            "player_name": "Michael Carter",
             "player_position": "RB"
           },
           "team": {
@@ -273,7 +285,7 @@
           "title": "Emotional Support Player",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 15.41
           },
           "team": {
             "team_key": "406.l.138635.t.1",
@@ -341,10 +353,6 @@
         }
       ],
       "missing": [
-        {
-          "id": "overthinker",
-          "reason": "No games lost due to start/sit choices."
-        },
         {
           "id": "mid_season_glow_up",
           "reason": "No mid-season improvement."
@@ -460,9 +468,9 @@
           "title": "Draft Steal of the Year",
           "metric": {
             "draft_rank": 160,
-            "season_rank": 16,
-            "delta": 144,
-            "season_points": 0.0,
+            "season_rank": 69,
+            "delta": 91,
+            "season_points": 171.0,
             "round": 14,
             "pick": 160
           },
@@ -481,12 +489,12 @@
           "id": "reached_and_regretted",
           "title": "Reached and Regretted",
           "metric": {
-            "draft_rank": 16,
-            "season_rank": 145,
-            "delta": -129,
+            "draft_rank": 136,
+            "season_rank": 297,
+            "delta": -161,
             "season_points": 0.0,
-            "round": 2,
-            "pick": 16
+            "round": 12,
+            "pick": 136
           },
           "team": {
             "team_key": "406.l.138635.t.10",
@@ -494,9 +502,9 @@
             "manager_names": "SeanI"
           },
           "player": {
-            "player_key": "406.p.30423",
-            "player_name": "Austin Ekeler",
-            "player_position": "RB"
+            "player_key": "406.p.30153",
+            "player_name": "Curtis Samuel",
+            "player_position": "WR"
           }
         },
         {
@@ -505,7 +513,7 @@
           "metric": {
             "round": 1,
             "pick": 9,
-            "season_points": 0.0
+            "season_points": 405.46
           },
           "team": {
             "team_key": "406.l.138635.t.10",
@@ -522,9 +530,9 @@
           "id": "late_round_wizardry",
           "title": "Late-Round Wizardry",
           "metric": {
-            "round": 10,
-            "pick": 112,
-            "season_points": 0.0,
+            "round": 14,
+            "pick": 160,
+            "season_points": 171.0,
             "late_round_threshold": 10
           },
           "team": {
@@ -533,17 +541,17 @@
             "manager_names": "SeanI"
           },
           "player": {
-            "player_key": "406.p.27658",
-            "player_name": "James White",
-            "player_position": "RB"
+            "player_key": "406.p.100017",
+            "player_name": "Patriots",
+            "player_position": "DEF"
           }
         },
         {
           "id": "bench_war_crime",
           "title": "Bench War Crime",
           "metric": {
-            "week": 1,
-            "points": 0.0
+            "week": 17,
+            "points": 35.84
           },
           "team": {
             "team_key": "406.l.138635.t.10",
@@ -561,7 +569,7 @@
           "title": "Set-and-Forget Legend",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 25.34
           },
           "team": {
             "team_key": "406.l.138635.t.10",
@@ -575,10 +583,22 @@
           }
         },
         {
+          "id": "overthinker",
+          "title": "Overthinker",
+          "metric": {
+            "games": 1
+          },
+          "team": {
+            "team_key": "406.l.138635.t.10",
+            "team_name": "Wilson's BlueBallers",
+            "manager_names": "SeanI"
+          }
+        },
+        {
           "id": "why_dont_he_want_me",
           "title": "Why Don't He Want Me, Man?",
           "metric": {
-            "bench_points": 0.0,
+            "bench_points": 233.68,
             "bench_weeks": 13
           },
           "player": {
@@ -614,7 +634,7 @@
           "title": "Emotional Support Player",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 25.34
           },
           "team": {
             "team_key": "406.l.138635.t.10",
@@ -685,10 +705,6 @@
         {
           "id": "schedule_screwed_me",
           "reason": "Schedule was neutral or favorable."
-        },
-        {
-          "id": "overthinker",
-          "reason": "No games lost due to start/sit choices."
         },
         {
           "id": "mid_season_glow_up",
@@ -804,12 +820,12 @@
           "id": "draft_steal",
           "title": "Draft Steal of the Year",
           "metric": {
-            "draft_rank": 151,
-            "season_rank": 29,
-            "delta": 122,
-            "season_points": 0.0,
-            "round": 13,
-            "pick": 151
+            "draft_rank": 114,
+            "season_rank": 18,
+            "delta": 96,
+            "season_points": 296.2,
+            "round": 10,
+            "pick": 114
           },
           "team": {
             "team_key": "406.l.138635.t.11",
@@ -817,21 +833,21 @@
             "manager_names": "Justin Esposito"
           },
           "player": {
-            "player_key": "406.p.100033",
-            "player_name": "Ravens",
-            "player_position": "DEF"
+            "player_key": "406.p.25812",
+            "player_name": "Kirk Cousins",
+            "player_position": "QB"
           }
         },
         {
           "id": "reached_and_regretted",
           "title": "Reached and Regretted",
           "metric": {
-            "draft_rank": 90,
-            "season_rank": 296,
-            "delta": -206,
-            "season_points": 0.0,
-            "round": 8,
-            "pick": 90
+            "draft_rank": 60,
+            "season_rank": 285,
+            "delta": -225,
+            "season_points": 2.0,
+            "round": 5,
+            "pick": 60
           },
           "team": {
             "team_key": "406.l.138635.t.11",
@@ -839,9 +855,9 @@
             "manager_names": "Justin Esposito"
           },
           "player": {
-            "player_key": "406.p.9265",
-            "player_name": "Matthew Stafford",
-            "player_position": "QB"
+            "player_key": "406.p.28654",
+            "player_name": "Raheem Mostert",
+            "player_position": "RB"
           }
         },
         {
@@ -850,7 +866,7 @@
           "metric": {
             "round": 1,
             "pick": 7,
-            "season_points": 0.0
+            "season_points": 295.3
           },
           "team": {
             "team_key": "406.l.138635.t.11",
@@ -868,8 +884,8 @@
           "title": "Late-Round Wizardry",
           "metric": {
             "round": 10,
-            "pick": 111,
-            "season_points": 0.0,
+            "pick": 114,
+            "season_points": 296.2,
             "late_round_threshold": 10
           },
           "team": {
@@ -878,17 +894,17 @@
             "manager_names": "Justin Esposito"
           },
           "player": {
-            "player_key": "406.p.31888",
-            "player_name": "Mecole Hardman Jr.",
-            "player_position": "WR"
+            "player_key": "406.p.25812",
+            "player_name": "Kirk Cousins",
+            "player_position": "QB"
           }
         },
         {
           "id": "bench_war_crime",
           "title": "Bench War Crime",
           "metric": {
-            "week": 1,
-            "points": 0.0
+            "week": 6,
+            "points": 34.52
           },
           "team": {
             "team_key": "406.l.138635.t.11",
@@ -906,7 +922,7 @@
           "title": "Set-and-Forget Legend",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 24.26
           },
           "team": {
             "team_key": "406.l.138635.t.11",
@@ -914,16 +930,28 @@
             "manager_names": "Justin Esposito"
           },
           "player": {
-            "player_key": "406.p.29399",
-            "player_name": "Tyreek Hill",
-            "player_position": "WR"
+            "player_key": "406.p.9265",
+            "player_name": "Matthew Stafford",
+            "player_position": "QB"
+          }
+        },
+        {
+          "id": "overthinker",
+          "title": "Overthinker",
+          "metric": {
+            "games": 1
+          },
+          "team": {
+            "team_key": "406.l.138635.t.11",
+            "team_name": "Emo Kidz",
+            "manager_names": "Justin Esposito"
           }
         },
         {
           "id": "why_dont_he_want_me",
           "title": "Why Don't He Want Me, Man?",
           "metric": {
-            "bench_points": 0.0,
+            "bench_points": 232.18,
             "bench_weeks": 11
           },
           "player": {
@@ -959,7 +987,7 @@
           "title": "Emotional Support Player",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 24.26
           },
           "team": {
             "team_key": "406.l.138635.t.11",
@@ -967,9 +995,9 @@
             "manager_names": "Justin Esposito"
           },
           "player": {
-            "player_key": "406.p.29399",
-            "player_name": "Tyreek Hill",
-            "player_position": "WR"
+            "player_key": "406.p.9265",
+            "player_name": "Matthew Stafford",
+            "player_position": "QB"
           }
         },
         {
@@ -1030,10 +1058,6 @@
         {
           "id": "schedule_screwed_me",
           "reason": "Schedule was neutral or favorable."
-        },
-        {
-          "id": "overthinker",
-          "reason": "No games lost due to start/sit choices."
         },
         {
           "id": "mid_season_glow_up",
@@ -1149,32 +1173,10 @@
           "id": "draft_steal",
           "title": "Draft Steal of the Year",
           "metric": {
-            "draft_rank": 142,
-            "season_rank": 26,
-            "delta": 116,
-            "season_points": 0.0,
-            "round": 12,
-            "pick": 142
-          },
-          "team": {
-            "team_key": "406.l.138635.t.12",
-            "team_name": "Harbaugh Sucks",
-            "manager_names": "-- hidden --"
-          },
-          "player": {
-            "player_key": "406.p.100028",
-            "player_name": "Commanders",
-            "player_position": "DEF"
-          }
-        },
-        {
-          "id": "reached_and_regretted",
-          "title": "Reached and Regretted",
-          "metric": {
             "draft_rank": 75,
-            "season_rank": 285,
-            "delta": -210,
-            "season_points": 0.0,
+            "season_rank": 2,
+            "delta": 73,
+            "season_points": 429.7,
             "round": 7,
             "pick": 75
           },
@@ -1190,12 +1192,34 @@
           }
         },
         {
+          "id": "reached_and_regretted",
+          "title": "Reached and Regretted",
+          "metric": {
+            "draft_rank": 142,
+            "season_rank": 242,
+            "delta": -100,
+            "season_points": 18.0,
+            "round": 12,
+            "pick": 142
+          },
+          "team": {
+            "team_key": "406.l.138635.t.12",
+            "team_name": "Harbaugh Sucks",
+            "manager_names": "-- hidden --"
+          },
+          "player": {
+            "player_key": "406.p.100028",
+            "player_name": "Commanders",
+            "player_position": "DEF"
+          }
+        },
+        {
           "id": "draft_bust",
           "title": "Draft Bust Hall of Fame",
           "metric": {
             "round": 1,
             "pick": 3,
-            "season_points": 0.0
+            "season_points": 216.5
           },
           "team": {
             "team_key": "406.l.138635.t.12",
@@ -1214,7 +1238,7 @@
           "metric": {
             "round": 10,
             "pick": 118,
-            "season_points": 0.0,
+            "season_points": 197.9,
             "late_round_threshold": 10
           },
           "team": {
@@ -1232,8 +1256,8 @@
           "id": "bench_war_crime",
           "title": "Bench War Crime",
           "metric": {
-            "week": 1,
-            "points": 0.0
+            "week": 4,
+            "points": 34.6
           },
           "team": {
             "team_key": "406.l.138635.t.12",
@@ -1241,9 +1265,9 @@
             "manager_names": "-- hidden --"
           },
           "player": {
-            "player_key": "406.p.31960",
-            "player_name": "Tony Pollard",
-            "player_position": "RB"
+            "player_key": "406.p.26652",
+            "player_name": "Cordarrelle Patterson",
+            "player_position": "WR,RB"
           }
         },
         {
@@ -1251,7 +1275,7 @@
           "title": "Set-and-Forget Legend",
           "metric": {
             "starts": 15,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 26.37
           },
           "team": {
             "team_key": "406.l.138635.t.12",
@@ -1259,16 +1283,28 @@
             "manager_names": "-- hidden --"
           },
           "player": {
-            "player_key": "406.p.30180",
-            "player_name": "Alvin Kamara",
-            "player_position": "RB"
+            "player_key": "406.p.5228",
+            "player_name": "Tom Brady",
+            "player_position": "QB"
+          }
+        },
+        {
+          "id": "overthinker",
+          "title": "Overthinker",
+          "metric": {
+            "games": 4
+          },
+          "team": {
+            "team_key": "406.l.138635.t.12",
+            "team_name": "Harbaugh Sucks",
+            "manager_names": "-- hidden --"
           }
         },
         {
           "id": "why_dont_he_want_me",
           "title": "Why Don't He Want Me, Man?",
           "metric": {
-            "bench_points": 0.0,
+            "bench_points": 72.8,
             "bench_weeks": 8
           },
           "player": {
@@ -1304,7 +1340,7 @@
           "title": "Emotional Support Player",
           "metric": {
             "starts": 15,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 26.37
           },
           "team": {
             "team_key": "406.l.138635.t.12",
@@ -1312,9 +1348,9 @@
             "manager_names": "-- hidden --"
           },
           "player": {
-            "player_key": "406.p.30180",
-            "player_name": "Alvin Kamara",
-            "player_position": "RB"
+            "player_key": "406.p.5228",
+            "player_name": "Tom Brady",
+            "player_position": "QB"
           }
         },
         {
@@ -1375,10 +1411,6 @@
         {
           "id": "schedule_screwed_me",
           "reason": "Schedule was neutral or favorable."
-        },
-        {
-          "id": "overthinker",
-          "reason": "No games lost due to start/sit choices."
         },
         {
           "id": "mid_season_glow_up",
@@ -1509,12 +1541,12 @@
           "id": "draft_steal",
           "title": "Draft Steal of the Year",
           "metric": {
-            "draft_rank": 164,
-            "season_rank": 22,
-            "delta": 142,
-            "season_points": 0.0,
-            "round": 14,
-            "pick": 164
+            "draft_rank": 149,
+            "season_rank": 81,
+            "delta": 68,
+            "season_points": 154.0,
+            "round": 13,
+            "pick": 149
           },
           "team": {
             "team_key": "406.l.138635.t.2",
@@ -1522,21 +1554,21 @@
             "manager_names": "Ray"
           },
           "player": {
-            "player_key": "406.p.100024",
-            "player_name": "Chargers",
-            "player_position": "DEF"
+            "player_key": "406.p.26534",
+            "player_name": "Justin Tucker",
+            "player_position": "K"
           }
         },
         {
           "id": "reached_and_regretted",
           "title": "Reached and Regretted",
           "metric": {
-            "draft_rank": 29,
-            "season_rank": 255,
-            "delta": -226,
-            "season_points": 0.0,
-            "round": 3,
-            "pick": 29
+            "draft_rank": 77,
+            "season_rank": 198,
+            "delta": -121,
+            "season_points": 44.1,
+            "round": 7,
+            "pick": 77
           },
           "team": {
             "team_key": "406.l.138635.t.2",
@@ -1544,8 +1576,8 @@
             "manager_names": "Ray"
           },
           "player": {
-            "player_key": "406.p.33138",
-            "player_name": "James Robinson",
+            "player_key": "406.p.31008",
+            "player_name": "Ronald Jones",
             "player_position": "RB"
           }
         },
@@ -1555,7 +1587,7 @@
           "metric": {
             "round": 1,
             "pick": 5,
-            "season_points": 0.0
+            "season_points": 242.06
           },
           "team": {
             "team_key": "406.l.138635.t.2",
@@ -1574,7 +1606,7 @@
           "metric": {
             "round": 10,
             "pick": 116,
-            "season_points": 0.0,
+            "season_points": 178.5,
             "late_round_threshold": 10
           },
           "team": {
@@ -1592,8 +1624,8 @@
           "id": "bench_war_crime",
           "title": "Bench War Crime",
           "metric": {
-            "week": 1,
-            "points": 0.0
+            "week": 9,
+            "points": 22.6
           },
           "team": {
             "team_key": "406.l.138635.t.2",
@@ -1601,8 +1633,8 @@
             "manager_names": "Ray"
           },
           "player": {
-            "player_key": "406.p.27540",
-            "player_name": "Odell Beckham Jr.",
+            "player_key": "406.p.33398",
+            "player_name": "DeVonta Smith",
             "player_position": "WR"
           }
         },
@@ -1611,7 +1643,7 @@
           "title": "Set-and-Forget Legend",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 15.13
           },
           "team": {
             "team_key": "406.l.138635.t.2",
@@ -1619,21 +1651,33 @@
             "manager_names": "Ray"
           },
           "player": {
-            "player_key": "406.p.26534",
-            "player_name": "Justin Tucker",
-            "player_position": "K"
+            "player_key": "406.p.29238",
+            "player_name": "Ezekiel Elliott",
+            "player_position": "RB"
+          }
+        },
+        {
+          "id": "overthinker",
+          "title": "Overthinker",
+          "metric": {
+            "games": 3
+          },
+          "team": {
+            "team_key": "406.l.138635.t.2",
+            "team_name": "Anti Relegation",
+            "manager_names": "Ray"
           }
         },
         {
           "id": "why_dont_he_want_me",
           "title": "Why Don't He Want Me, Man?",
           "metric": {
-            "bench_points": 0.0,
-            "bench_weeks": 4
+            "bench_points": 110.84,
+            "bench_weeks": 9
           },
           "player": {
-            "player_key": "406.p.27540",
-            "player_name": "Odell Beckham Jr.",
+            "player_key": "406.p.29288",
+            "player_name": "Tyler Boyd",
             "player_position": "WR"
           },
           "team": {
@@ -1664,7 +1708,7 @@
           "title": "Emotional Support Player",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 15.13
           },
           "team": {
             "team_key": "406.l.138635.t.2",
@@ -1672,9 +1716,9 @@
             "manager_names": "Ray"
           },
           "player": {
-            "player_key": "406.p.26534",
-            "player_name": "Justin Tucker",
-            "player_position": "K"
+            "player_key": "406.p.29238",
+            "player_name": "Ezekiel Elliott",
+            "player_position": "RB"
           }
         },
         {
@@ -1732,10 +1776,6 @@
         }
       ],
       "missing": [
-        {
-          "id": "overthinker",
-          "reason": "No games lost due to start/sit choices."
-        },
         {
           "id": "mid_season_glow_up",
           "reason": "No mid-season improvement."
@@ -1865,12 +1905,12 @@
           "id": "draft_steal",
           "title": "Draft Steal of the Year",
           "metric": {
-            "draft_rank": 161,
-            "season_rank": 11,
-            "delta": 150,
-            "season_points": 0.0,
-            "round": 14,
-            "pick": 161
+            "draft_rank": 137,
+            "season_rank": 79,
+            "delta": 58,
+            "season_points": 154.9,
+            "round": 12,
+            "pick": 137
           },
           "team": {
             "team_key": "406.l.138635.t.3",
@@ -1878,9 +1918,9 @@
             "manager_names": "Andrew"
           },
           "player": {
-            "player_key": "406.p.100012",
-            "player_name": "Chiefs",
-            "player_position": "DEF"
+            "player_key": "406.p.31500",
+            "player_name": "Darrel Williams",
+            "player_position": "RB"
           }
         },
         {
@@ -1888,9 +1928,9 @@
           "title": "Reached and Regretted",
           "metric": {
             "draft_rank": 56,
-            "season_rank": 273,
-            "delta": -217,
-            "season_points": 0.0,
+            "season_rank": 231,
+            "delta": -175,
+            "season_points": 21.8,
             "round": 5,
             "pick": 56
           },
@@ -1911,7 +1951,7 @@
           "metric": {
             "round": 1,
             "pick": 8,
-            "season_points": 0.0
+            "season_points": 229.0
           },
           "team": {
             "team_key": "406.l.138635.t.3",
@@ -1928,9 +1968,9 @@
           "id": "late_round_wizardry",
           "title": "Late-Round Wizardry",
           "metric": {
-            "round": 10,
-            "pick": 113,
-            "season_points": 0.0,
+            "round": 12,
+            "pick": 137,
+            "season_points": 154.9,
             "late_round_threshold": 10
           },
           "team": {
@@ -1939,17 +1979,17 @@
             "manager_names": "Andrew"
           },
           "player": {
-            "player_key": "406.p.33391",
-            "player_name": "Trey Lance",
-            "player_position": "QB"
+            "player_key": "406.p.31500",
+            "player_name": "Darrel Williams",
+            "player_position": "RB"
           }
         },
         {
           "id": "bench_war_crime",
           "title": "Bench War Crime",
           "metric": {
-            "week": 1,
-            "points": 0.0
+            "week": 10,
+            "points": 27.4
           },
           "team": {
             "team_key": "406.l.138635.t.3",
@@ -1957,9 +1997,9 @@
             "manager_names": "Andrew"
           },
           "player": {
-            "player_key": "406.p.30175",
-            "player_name": "JuJu Smith-Schuster",
-            "player_position": "WR"
+            "player_key": "406.p.33508",
+            "player_name": "Rhamondre Stevenson",
+            "player_position": "RB"
           }
         },
         {
@@ -1967,7 +2007,7 @@
           "title": "Set-and-Forget Legend",
           "metric": {
             "starts": 14,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 17.31
           },
           "team": {
             "team_key": "406.l.138635.t.3",
@@ -1981,16 +2021,28 @@
           }
         },
         {
+          "id": "overthinker",
+          "title": "Overthinker",
+          "metric": {
+            "games": 2
+          },
+          "team": {
+            "team_key": "406.l.138635.t.3",
+            "team_name": "The  Bad Fantasy Football Team",
+            "manager_names": "Andrew"
+          }
+        },
+        {
           "id": "why_dont_he_want_me",
           "title": "Why Don't He Want Me, Man?",
           "metric": {
-            "bench_points": 0.0,
-            "bench_weeks": 3
+            "bench_points": 104.2,
+            "bench_weeks": 12
           },
           "player": {
-            "player_key": "406.p.30175",
-            "player_name": "JuJu Smith-Schuster",
-            "player_position": "WR"
+            "player_key": "406.p.32732",
+            "player_name": "A.J. Dillon",
+            "player_position": "RB"
           },
           "team": {
             "team_key": "406.l.138635.t.3",
@@ -2020,7 +2072,7 @@
           "title": "Emotional Support Player",
           "metric": {
             "starts": 14,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 17.31
           },
           "team": {
             "team_key": "406.l.138635.t.3",
@@ -2088,10 +2140,6 @@
         }
       ],
       "missing": [
-        {
-          "id": "overthinker",
-          "reason": "No games lost due to start/sit choices."
-        },
         {
           "id": "mid_season_glow_up",
           "reason": "No mid-season improvement."
@@ -2206,12 +2254,12 @@
           "id": "draft_steal",
           "title": "Draft Steal of the Year",
           "metric": {
-            "draft_rank": 146,
-            "season_rank": 25,
-            "delta": 121,
-            "season_points": 0.0,
-            "round": 13,
-            "pick": 146
+            "draft_rank": 71,
+            "season_rank": 10,
+            "delta": 61,
+            "season_points": 352.76,
+            "round": 6,
+            "pick": 71
           },
           "team": {
             "team_key": "406.l.138635.t.4",
@@ -2219,21 +2267,21 @@
             "manager_names": "ronny"
           },
           "player": {
-            "player_key": "406.p.100027",
-            "player_name": "Buccaneers",
-            "player_position": "DEF"
+            "player_key": "406.p.29369",
+            "player_name": "Dak Prescott",
+            "player_position": "QB"
           }
         },
         {
           "id": "reached_and_regretted",
           "title": "Reached and Regretted",
           "metric": {
-            "draft_rank": 66,
-            "season_rank": 270,
-            "delta": -204,
-            "season_points": 0.0,
-            "round": 6,
-            "pick": 66
+            "draft_rank": 59,
+            "season_rank": 124,
+            "delta": -65,
+            "season_points": 110.0,
+            "round": 5,
+            "pick": 59
           },
           "team": {
             "team_key": "406.l.138635.t.4",
@@ -2241,8 +2289,8 @@
             "manager_names": "ronny"
           },
           "player": {
-            "player_key": "406.p.33423",
-            "player_name": "Javonte Williams",
+            "player_key": "406.p.30199",
+            "player_name": "Kareem Hunt",
             "player_position": "RB"
           }
         },
@@ -2252,7 +2300,7 @@
           "metric": {
             "round": 1,
             "pick": 2,
-            "season_points": 0.0
+            "season_points": 197.1
           },
           "team": {
             "team_key": "406.l.138635.t.4",
@@ -2271,7 +2319,7 @@
           "metric": {
             "round": 13,
             "pick": 146,
-            "season_points": 0.0,
+            "season_points": 145.0,
             "late_round_threshold": 10
           },
           "team": {
@@ -2289,8 +2337,8 @@
           "id": "bench_war_crime",
           "title": "Bench War Crime",
           "metric": {
-            "week": 1,
-            "points": 0.0
+            "week": 17,
+            "points": 35.4
           },
           "team": {
             "team_key": "406.l.138635.t.4",
@@ -2298,8 +2346,8 @@
             "manager_names": "ronny"
           },
           "player": {
-            "player_key": "406.p.28457",
-            "player_name": "Tyler Lockett",
+            "player_key": "406.p.33500",
+            "player_name": "Amon-Ra St. Brown",
             "player_position": "WR"
           }
         },
@@ -2308,7 +2356,7 @@
           "title": "Set-and-Forget Legend",
           "metric": {
             "starts": 17,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 11.29
           },
           "team": {
             "team_key": "406.l.138635.t.4",
@@ -2322,16 +2370,28 @@
           }
         },
         {
+          "id": "overthinker",
+          "title": "Overthinker",
+          "metric": {
+            "games": 1
+          },
+          "team": {
+            "team_key": "406.l.138635.t.4",
+            "team_name": "THE PAIN TRAIN",
+            "manager_names": "ronny"
+          }
+        },
+        {
           "id": "why_dont_he_want_me",
           "title": "Why Don't He Want Me, Man?",
           "metric": {
-            "bench_points": 0.0,
-            "bench_weeks": 5
+            "bench_points": 161.52,
+            "bench_weeks": 8
           },
           "player": {
-            "player_key": "406.p.28457",
-            "player_name": "Tyler Lockett",
-            "player_position": "WR"
+            "player_key": "406.p.29369",
+            "player_name": "Dak Prescott",
+            "player_position": "QB"
           },
           "team": {
             "team_key": "406.l.138635.t.4",
@@ -2361,7 +2421,7 @@
           "title": "Emotional Support Player",
           "metric": {
             "starts": 17,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 11.29
           },
           "team": {
             "team_key": "406.l.138635.t.4",
@@ -2432,10 +2492,6 @@
         {
           "id": "schedule_screwed_me",
           "reason": "Schedule was neutral or favorable."
-        },
-        {
-          "id": "overthinker",
-          "reason": "No games lost due to start/sit choices."
         },
         {
           "id": "mid_season_glow_up",
@@ -2552,9 +2608,9 @@
           "title": "Draft Steal of the Year",
           "metric": {
             "draft_rank": 157,
-            "season_rank": 2,
-            "delta": 155,
-            "season_points": 0.0,
+            "season_rank": 80,
+            "delta": 77,
+            "season_points": 154.0,
             "round": 14,
             "pick": 157
           },
@@ -2573,12 +2629,12 @@
           "id": "reached_and_regretted",
           "title": "Reached and Regretted",
           "metric": {
-            "draft_rank": 13,
-            "season_rank": 267,
-            "delta": -254,
-            "season_points": 0.0,
-            "round": 2,
-            "pick": 13
+            "draft_rank": 132,
+            "season_rank": 290,
+            "delta": -158,
+            "season_points": 0.72,
+            "round": 11,
+            "pick": 132
           },
           "team": {
             "team_key": "406.l.138635.t.5",
@@ -2586,9 +2642,9 @@
             "manager_names": "brandon"
           },
           "player": {
-            "player_key": "406.p.33412",
-            "player_name": "Najee Harris",
-            "player_position": "RB"
+            "player_key": "406.p.7426",
+            "player_name": "Ryan Fitzpatrick",
+            "player_position": "QB"
           }
         },
         {
@@ -2597,7 +2653,7 @@
           "metric": {
             "round": 1,
             "pick": 12,
-            "season_points": 0.0
+            "season_points": 360.6
           },
           "team": {
             "team_key": "406.l.138635.t.5",
@@ -2616,7 +2672,7 @@
           "metric": {
             "round": 10,
             "pick": 109,
-            "season_points": 0.0,
+            "season_points": 219.7,
             "late_round_threshold": 10
           },
           "team": {
@@ -2634,8 +2690,8 @@
           "id": "bench_war_crime",
           "title": "Bench War Crime",
           "metric": {
-            "week": 1,
-            "points": 0.0
+            "week": 11,
+            "points": 53.4
           },
           "team": {
             "team_key": "406.l.138635.t.5",
@@ -2643,9 +2699,9 @@
             "manager_names": "brandon"
           },
           "player": {
-            "player_key": "406.p.24791",
-            "player_name": "A.J. Green",
-            "player_position": "WR"
+            "player_key": "406.p.32711",
+            "player_name": "Jonathan Taylor",
+            "player_position": "RB"
           }
         },
         {
@@ -2653,7 +2709,7 @@
           "title": "Set-and-Forget Legend",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 25.81
           },
           "team": {
             "team_key": "406.l.138635.t.5",
@@ -2667,16 +2723,28 @@
           }
         },
         {
+          "id": "overthinker",
+          "title": "Overthinker",
+          "metric": {
+            "games": 3
+          },
+          "team": {
+            "team_key": "406.l.138635.t.5",
+            "team_name": "HoldMyBeer\ud83c\udf7b",
+            "manager_names": "brandon"
+          }
+        },
+        {
           "id": "why_dont_he_want_me",
           "title": "Why Don't He Want Me, Man?",
           "metric": {
-            "bench_points": 0.0,
-            "bench_weeks": 2
+            "bench_points": 135.5,
+            "bench_weeks": 11
           },
           "player": {
-            "player_key": "406.p.24791",
-            "player_name": "A.J. Green",
-            "player_position": "WR"
+            "player_key": "406.p.30218",
+            "player_name": "James Conner",
+            "player_position": "RB"
           },
           "team": {
             "team_key": "406.l.138635.t.5",
@@ -2706,7 +2774,7 @@
           "title": "Emotional Support Player",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 25.81
           },
           "team": {
             "team_key": "406.l.138635.t.5",
@@ -2777,10 +2845,6 @@
         {
           "id": "schedule_screwed_me",
           "reason": "Schedule was neutral or favorable."
-        },
-        {
-          "id": "overthinker",
-          "reason": "No games lost due to start/sit choices."
         },
         {
           "id": "mid_season_glow_up",
@@ -2896,12 +2960,12 @@
           "id": "draft_steal",
           "title": "Draft Steal of the Year",
           "metric": {
-            "draft_rank": 158,
-            "season_rank": 10,
-            "delta": 148,
-            "season_points": 0.0,
-            "round": 14,
-            "pick": 158
+            "draft_rank": 110,
+            "season_rank": 8,
+            "delta": 102,
+            "season_points": 382.24,
+            "round": 10,
+            "pick": 110
           },
           "team": {
             "team_key": "406.l.138635.t.6",
@@ -2909,21 +2973,21 @@
             "manager_names": "christopher"
           },
           "player": {
-            "player_key": "406.p.100011",
-            "player_name": "Colts",
-            "player_position": "DEF"
+            "player_key": "406.p.32671",
+            "player_name": "Joe Burrow",
+            "player_position": "QB"
           }
         },
         {
           "id": "reached_and_regretted",
           "title": "Reached and Regretted",
           "metric": {
-            "draft_rank": 38,
-            "season_rank": 231,
-            "delta": -193,
-            "season_points": 0.0,
-            "round": 4,
-            "pick": 38
+            "draft_rank": 134,
+            "season_rank": 283,
+            "delta": -149,
+            "season_points": 2.4,
+            "round": 12,
+            "pick": 134
           },
           "team": {
             "team_key": "406.l.138635.t.6",
@@ -2931,8 +2995,8 @@
             "manager_names": "christopher"
           },
           "player": {
-            "player_key": "406.p.32705",
-            "player_name": "D'Andre Swift",
+            "player_key": "406.p.28461",
+            "player_name": "Tevin Coleman",
             "player_position": "RB"
           }
         },
@@ -2942,7 +3006,7 @@
           "metric": {
             "round": 1,
             "pick": 11,
-            "season_points": 0.0
+            "season_points": 140.7
           },
           "team": {
             "team_key": "406.l.138635.t.6",
@@ -2961,7 +3025,7 @@
           "metric": {
             "round": 10,
             "pick": 110,
-            "season_points": 0.0,
+            "season_points": 382.24,
             "late_round_threshold": 10
           },
           "team": {
@@ -2979,8 +3043,8 @@
           "id": "bench_war_crime",
           "title": "Bench War Crime",
           "metric": {
-            "week": 1,
-            "points": 0.0
+            "week": 16,
+            "points": 46.1
           },
           "team": {
             "team_key": "406.l.138635.t.6",
@@ -2988,9 +3052,9 @@
             "manager_names": "christopher"
           },
           "player": {
-            "player_key": "406.p.26660",
-            "player_name": "Giovani Bernard",
-            "player_position": "RB"
+            "player_key": "406.p.32671",
+            "player_name": "Joe Burrow",
+            "player_position": "QB"
           }
         },
         {
@@ -2998,7 +3062,7 @@
           "title": "Set-and-Forget Legend",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 27.92
           },
           "team": {
             "team_key": "406.l.138635.t.6",
@@ -3012,16 +3076,28 @@
           }
         },
         {
+          "id": "overthinker",
+          "title": "Overthinker",
+          "metric": {
+            "games": 4
+          },
+          "team": {
+            "team_key": "406.l.138635.t.6",
+            "team_name": "Holy Toledo!",
+            "manager_names": "christopher"
+          }
+        },
+        {
           "id": "why_dont_he_want_me",
           "title": "Why Don't He Want Me, Man?",
           "metric": {
-            "bench_points": 0.0,
-            "bench_weeks": 1
+            "bench_points": 349.6,
+            "bench_weeks": 16
           },
           "player": {
-            "player_key": "406.p.26660",
-            "player_name": "Giovani Bernard",
-            "player_position": "RB"
+            "player_key": "406.p.32671",
+            "player_name": "Joe Burrow",
+            "player_position": "QB"
           },
           "team": {
             "team_key": "406.l.138635.t.6",
@@ -3051,7 +3127,7 @@
           "title": "Emotional Support Player",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 27.92
           },
           "team": {
             "team_key": "406.l.138635.t.6",
@@ -3122,10 +3198,6 @@
         {
           "id": "schedule_screwed_me",
           "reason": "Schedule was neutral or favorable."
-        },
-        {
-          "id": "overthinker",
-          "reason": "No games lost due to start/sit choices."
         },
         {
           "id": "mid_season_glow_up",
@@ -3241,12 +3313,12 @@
           "id": "draft_steal",
           "title": "Draft Steal of the Year",
           "metric": {
-            "draft_rank": 154,
-            "season_rank": 21,
-            "delta": 133,
-            "season_points": 0.0,
-            "round": 13,
-            "pick": 154
+            "draft_rank": 130,
+            "season_rank": 65,
+            "delta": 65,
+            "season_points": 177.3,
+            "round": 11,
+            "pick": 130
           },
           "team": {
             "team_key": "406.l.138635.t.7",
@@ -3254,21 +3326,21 @@
             "manager_names": "cathy"
           },
           "player": {
-            "player_key": "406.p.100023",
-            "player_name": "Steelers",
-            "player_position": "DEF"
+            "player_key": "406.p.32231",
+            "player_name": "Jakobi Meyers",
+            "player_position": "WR"
           }
         },
         {
           "id": "reached_and_regretted",
           "title": "Reached and Regretted",
           "metric": {
-            "draft_rank": 15,
-            "season_rank": 239,
-            "delta": -224,
-            "season_points": 0.0,
-            "round": 2,
-            "pick": 15
+            "draft_rank": 63,
+            "season_rank": 208,
+            "delta": -145,
+            "season_points": 36.2,
+            "round": 6,
+            "pick": 63
           },
           "team": {
             "team_key": "406.l.138635.t.7",
@@ -3276,9 +3348,9 @@
             "manager_names": "cathy"
           },
           "player": {
-            "player_key": "406.p.32736",
-            "player_name": "Antonio Gibson",
-            "player_position": "RB"
+            "player_key": "406.p.29785",
+            "player_name": "Robbie Chosen",
+            "player_position": "WR"
           }
         },
         {
@@ -3287,7 +3359,7 @@
           "metric": {
             "round": 1,
             "pick": 10,
-            "season_points": 0.0
+            "season_points": 208.3
           },
           "team": {
             "team_key": "406.l.138635.t.7",
@@ -3306,7 +3378,7 @@
           "metric": {
             "round": 11,
             "pick": 130,
-            "season_points": 0.0,
+            "season_points": 177.3,
             "late_round_threshold": 10
           },
           "team": {
@@ -3324,8 +3396,8 @@
           "id": "bench_war_crime",
           "title": "Bench War Crime",
           "metric": {
-            "week": 1,
-            "points": 0.0
+            "week": 9,
+            "points": 30.18
           },
           "team": {
             "team_key": "406.l.138635.t.7",
@@ -3333,9 +3405,9 @@
             "manager_names": "cathy"
           },
           "player": {
-            "player_key": "406.p.29307",
-            "player_name": "Kenyan Drake",
-            "player_position": "RB"
+            "player_key": "406.p.29236",
+            "player_name": "Carson Wentz",
+            "player_position": "QB"
           }
         },
         {
@@ -3343,7 +3415,7 @@
           "title": "Set-and-Forget Legend",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 10.86
           },
           "team": {
             "team_key": "406.l.138635.t.7",
@@ -3357,16 +3429,28 @@
           }
         },
         {
+          "id": "overthinker",
+          "title": "Overthinker",
+          "metric": {
+            "games": 1
+          },
+          "team": {
+            "team_key": "406.l.138635.t.7",
+            "team_name": "Rollin' w/ Mahomes",
+            "manager_names": "cathy"
+          }
+        },
+        {
           "id": "why_dont_he_want_me",
           "title": "Why Don't He Want Me, Man?",
           "metric": {
-            "bench_points": 0.0,
+            "bench_points": 84.84,
             "bench_weeks": 5
           },
           "player": {
-            "player_key": "406.p.29307",
-            "player_name": "Kenyan Drake",
-            "player_position": "RB"
+            "player_key": "406.p.33389",
+            "player_name": "Trevor Lawrence",
+            "player_position": "QB"
           },
           "team": {
             "team_key": "406.l.138635.t.7",
@@ -3396,7 +3480,7 @@
           "title": "Emotional Support Player",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 10.86
           },
           "team": {
             "team_key": "406.l.138635.t.7",
@@ -3467,10 +3551,6 @@
         {
           "id": "schedule_screwed_me",
           "reason": "Schedule was neutral or favorable."
-        },
-        {
-          "id": "overthinker",
-          "reason": "No games lost due to start/sit choices."
         },
         {
           "id": "mid_season_glow_up",
@@ -3601,12 +3681,12 @@
           "id": "draft_steal",
           "title": "Draft Steal of the Year",
           "metric": {
-            "draft_rank": 145,
-            "season_rank": 7,
-            "delta": 138,
-            "season_points": 0.0,
-            "round": 13,
-            "pick": 145
+            "draft_rank": 72,
+            "season_rank": 3,
+            "delta": 69,
+            "season_points": 423.34,
+            "round": 6,
+            "pick": 72
           },
           "team": {
             "team_key": "406.l.138635.t.8",
@@ -3614,21 +3694,21 @@
             "manager_names": "Adam"
           },
           "player": {
-            "player_key": "406.p.100007",
-            "player_name": "Broncos",
-            "player_position": "DEF"
+            "player_key": "406.p.32676",
+            "player_name": "Justin Herbert",
+            "player_position": "QB"
           }
         },
         {
           "id": "reached_and_regretted",
           "title": "Reached and Regretted",
           "metric": {
-            "draft_rank": 24,
-            "season_rank": 225,
-            "delta": -201,
-            "season_points": 0.0,
-            "round": 2,
-            "pick": 24
+            "draft_rank": 120,
+            "season_rank": 274,
+            "delta": -154,
+            "season_points": 5.2,
+            "round": 10,
+            "pick": 120
           },
           "team": {
             "team_key": "406.l.138635.t.8",
@@ -3636,8 +3716,8 @@
             "manager_names": "Adam"
           },
           "player": {
-            "player_key": "406.p.32692",
-            "player_name": "Justin Jefferson",
+            "player_key": "406.p.33109",
+            "player_name": "Marquez Callaway",
             "player_position": "WR"
           }
         },
@@ -3647,7 +3727,7 @@
           "metric": {
             "round": 1,
             "pick": 1,
-            "season_points": 0.0
+            "season_points": 127.5
           },
           "team": {
             "team_key": "406.l.138635.t.8",
@@ -3664,9 +3744,9 @@
           "id": "late_round_wizardry",
           "title": "Late-Round Wizardry",
           "metric": {
-            "round": 10,
-            "pick": 120,
-            "season_points": 0.0,
+            "round": 11,
+            "pick": 121,
+            "season_points": 106.2,
             "late_round_threshold": 10
           },
           "team": {
@@ -3675,8 +3755,8 @@
             "manager_names": "Adam"
           },
           "player": {
-            "player_key": "406.p.33109",
-            "player_name": "Marquez Callaway",
+            "player_key": "406.p.32843",
+            "player_name": "Darnell Mooney",
             "player_position": "WR"
           }
         },
@@ -3684,8 +3764,8 @@
           "id": "bench_war_crime",
           "title": "Bench War Crime",
           "metric": {
-            "week": 1,
-            "points": 0.0
+            "week": 16,
+            "points": 28.3
           },
           "team": {
             "team_key": "406.l.138635.t.8",
@@ -3693,8 +3773,8 @@
             "manager_names": "Adam"
           },
           "player": {
-            "player_key": "406.p.28403",
-            "player_name": "Melvin Gordon III",
+            "player_key": "406.p.31919",
+            "player_name": "Damien Harris",
             "player_position": "RB"
           }
         },
@@ -3703,7 +3783,7 @@
           "title": "Set-and-Forget Legend",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 26.46
           },
           "team": {
             "team_key": "406.l.138635.t.8",
@@ -3711,21 +3791,33 @@
             "manager_names": "Adam"
           },
           "player": {
-            "player_key": "406.p.31056",
-            "player_name": "Mark Andrews",
-            "player_position": "TE"
+            "player_key": "406.p.32676",
+            "player_name": "Justin Herbert",
+            "player_position": "QB"
+          }
+        },
+        {
+          "id": "overthinker",
+          "title": "Overthinker",
+          "metric": {
+            "games": 5
+          },
+          "team": {
+            "team_key": "406.l.138635.t.8",
+            "team_name": "Scoregasm",
+            "manager_names": "Adam"
           }
         },
         {
           "id": "why_dont_he_want_me",
           "title": "Why Don't He Want Me, Man?",
           "metric": {
-            "bench_points": 0.0,
-            "bench_weeks": 9
+            "bench_points": 115.7,
+            "bench_weeks": 12
           },
           "player": {
-            "player_key": "406.p.28403",
-            "player_name": "Melvin Gordon III",
+            "player_key": "406.p.31919",
+            "player_name": "Damien Harris",
             "player_position": "RB"
           },
           "team": {
@@ -3756,7 +3848,7 @@
           "title": "Emotional Support Player",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 26.46
           },
           "team": {
             "team_key": "406.l.138635.t.8",
@@ -3764,9 +3856,9 @@
             "manager_names": "Adam"
           },
           "player": {
-            "player_key": "406.p.31056",
-            "player_name": "Mark Andrews",
-            "player_position": "TE"
+            "player_key": "406.p.32676",
+            "player_name": "Justin Herbert",
+            "player_position": "QB"
           }
         },
         {
@@ -3837,10 +3929,6 @@
         }
       ],
       "missing": [
-        {
-          "id": "overthinker",
-          "reason": "No games lost due to start/sit choices."
-        },
         {
           "id": "late_season_collapse",
           "reason": "No late-season collapse."
@@ -3951,12 +4039,12 @@
           "id": "draft_steal",
           "title": "Draft Steal of the Year",
           "metric": {
-            "draft_rank": 163,
-            "season_rank": 44,
-            "delta": 119,
-            "season_points": 0.0,
-            "round": 14,
-            "pick": 163
+            "draft_rank": 102,
+            "season_rank": 11,
+            "delta": 91,
+            "season_points": 343.96,
+            "round": 9,
+            "pick": 102
           },
           "team": {
             "team_key": "406.l.138635.t.9",
@@ -3964,21 +4052,21 @@
             "manager_names": "Don"
           },
           "player": {
-            "player_key": "406.p.25881",
-            "player_name": "Greg Zuerlein",
-            "player_position": "K"
+            "player_key": "406.p.32723",
+            "player_name": "Jalen Hurts",
+            "player_position": "QB"
           }
         },
         {
           "id": "reached_and_regretted",
           "title": "Reached and Regretted",
           "metric": {
-            "draft_rank": 43,
-            "season_rank": 201,
-            "delta": -158,
-            "season_points": 0.0,
-            "round": 4,
-            "pick": 43
+            "draft_rank": 30,
+            "season_rank": 189,
+            "delta": -159,
+            "season_points": 48.1,
+            "round": 3,
+            "pick": 30
           },
           "team": {
             "team_key": "406.l.138635.t.9",
@@ -3986,8 +4074,8 @@
             "manager_names": "Don"
           },
           "player": {
-            "player_key": "406.p.31902",
-            "player_name": "Darrell Henderson Jr.",
+            "player_key": "406.p.30362",
+            "player_name": "Chris Carson",
             "player_position": "RB"
           }
         },
@@ -3997,7 +4085,7 @@
           "metric": {
             "round": 1,
             "pick": 6,
-            "season_points": 0.0
+            "season_points": 332.8
           },
           "team": {
             "team_key": "406.l.138635.t.9",
@@ -4014,9 +4102,9 @@
           "id": "late_round_wizardry",
           "title": "Late-Round Wizardry",
           "metric": {
-            "round": 10,
-            "pick": 115,
-            "season_points": 0.0,
+            "round": 13,
+            "pick": 150,
+            "season_points": 177.9,
             "late_round_threshold": 10
           },
           "team": {
@@ -4025,9 +4113,9 @@
             "manager_names": "Don"
           },
           "player": {
-            "player_key": "406.p.29650",
-            "player_name": "J.D. McKissic",
-            "player_position": "RB"
+            "player_key": "406.p.31857",
+            "player_name": "Hollywood Brown",
+            "player_position": "WR"
           }
         },
         {
@@ -4035,7 +4123,7 @@
           "title": "Bench War Crime",
           "metric": {
             "week": 1,
-            "points": 0.0
+            "points": 39.62
           },
           "team": {
             "team_key": "406.l.138635.t.9",
@@ -4053,7 +4141,7 @@
           "title": "Set-and-Forget Legend",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 21.5
           },
           "team": {
             "team_key": "406.l.138635.t.9",
@@ -4061,22 +4149,34 @@
             "manager_names": "Don"
           },
           "player": {
-            "player_key": "406.p.27581",
-            "player_name": "Davante Adams",
-            "player_position": "WR"
+            "player_key": "406.p.32723",
+            "player_name": "Jalen Hurts",
+            "player_position": "QB"
+          }
+        },
+        {
+          "id": "overthinker",
+          "title": "Overthinker",
+          "metric": {
+            "games": 1
+          },
+          "team": {
+            "team_key": "406.l.138635.t.9",
+            "team_name": "Slob on my Nuk",
+            "manager_names": "Don"
           }
         },
         {
           "id": "why_dont_he_want_me",
           "title": "Why Don't He Want Me, Man?",
           "metric": {
-            "bench_points": 0.0,
-            "bench_weeks": 3
+            "bench_points": 79.9,
+            "bench_weeks": 6
           },
           "player": {
-            "player_key": "406.p.28389",
-            "player_name": "Jameis Winston",
-            "player_position": "QB"
+            "player_key": "406.p.32695",
+            "player_name": "Brandon Aiyuk",
+            "player_position": "WR"
           },
           "team": {
             "team_key": "406.l.138635.t.9",
@@ -4106,7 +4206,7 @@
           "title": "Emotional Support Player",
           "metric": {
             "starts": 16,
-            "avg_weekly_score": 0.0
+            "avg_weekly_score": 21.5
           },
           "team": {
             "team_key": "406.l.138635.t.9",
@@ -4114,9 +4214,9 @@
             "manager_names": "Don"
           },
           "player": {
-            "player_key": "406.p.27581",
-            "player_name": "Davante Adams",
-            "player_position": "WR"
+            "player_key": "406.p.32723",
+            "player_name": "Jalen Hurts",
+            "player_position": "QB"
           }
         },
         {
@@ -4177,10 +4277,6 @@
         {
           "id": "schedule_screwed_me",
           "reason": "Schedule was neutral or favorable."
-        },
-        {
-          "id": "overthinker",
-          "reason": "No games lost due to start/sit choices."
         },
         {
           "id": "late_season_collapse",

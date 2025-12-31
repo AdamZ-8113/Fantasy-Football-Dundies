@@ -433,6 +433,16 @@ def compute_insights_for_league(conn, league_key, season):
     waiver_counts, trade_counts = compute_transactions(conn, league_key)
     rosters = load_rosters(conn, league_key)
     player_points = load_player_fantasy_points(conn, league_key, stat_modifiers)
+    if player_points:
+        max_points = max(player_points.values())
+        if max_points == 0:
+            fallback = load_player_points(conn, league_key, "player_points")
+            if fallback:
+                player_points = fallback
+    else:
+        fallback = load_player_points(conn, league_key, "player_points")
+        if fallback:
+            player_points = fallback
     draft_results = load_draft_results(conn, league_key)
     player_map = load_player_map(conn)
     playoff_start = settings.get("playoff_start_week")

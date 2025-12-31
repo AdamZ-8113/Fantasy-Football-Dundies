@@ -1,7 +1,7 @@
 {
   "season": "2021",
   "league_key": "406.l.138635",
-  "generated_at": "2025-12-31 00:36:02",
+  "generated_at": "2025-12-31 08:04:31",
   "insights": [
     {
       "id": "league_champion_dna",
@@ -251,43 +251,43 @@
       "id": "draft_steal",
       "title": "Draft Steal of the Year",
       "metric": {
-        "draft_rank": 157,
-        "season_rank": 2,
-        "delta": 155,
-        "season_points": 0.0,
-        "round": 14,
-        "pick": 157
+        "draft_rank": 110,
+        "season_rank": 8,
+        "delta": 102,
+        "season_points": 382.24,
+        "round": 10,
+        "pick": 110
       },
       "team": {
-        "team_key": "406.l.138635.t.5",
-        "team_name": "HoldMyBeer\ud83c\udf7b",
-        "manager_names": "brandon"
+        "team_key": "406.l.138635.t.6",
+        "team_name": "Holy Toledo!",
+        "manager_names": "christopher"
       },
       "player": {
-        "player_key": "406.p.100002",
-        "player_name": "Bills",
-        "player_position": "DEF"
+        "player_key": "406.p.32671",
+        "player_name": "Joe Burrow",
+        "player_position": "QB"
       }
     },
     {
       "id": "reached_and_regretted",
       "title": "Reached and Regretted",
       "metric": {
-        "draft_rank": 13,
-        "season_rank": 267,
-        "delta": -254,
-        "season_points": 0.0,
-        "round": 2,
-        "pick": 13
+        "draft_rank": 60,
+        "season_rank": 285,
+        "delta": -225,
+        "season_points": 2.0,
+        "round": 5,
+        "pick": 60
       },
       "team": {
-        "team_key": "406.l.138635.t.5",
-        "team_name": "HoldMyBeer\ud83c\udf7b",
-        "manager_names": "brandon"
+        "team_key": "406.l.138635.t.11",
+        "team_name": "Emo Kidz",
+        "manager_names": "Justin Esposito"
       },
       "player": {
-        "player_key": "406.p.33412",
-        "player_name": "Najee Harris",
+        "player_key": "406.p.28654",
+        "player_name": "Raheem Mostert",
         "player_position": "RB"
       }
     },
@@ -297,7 +297,7 @@
       "metric": {
         "round": 1,
         "pick": 1,
-        "season_points": 0.0
+        "season_points": 127.5
       },
       "team": {
         "team_key": "406.l.138635.t.8",
@@ -315,9 +315,27 @@
       "title": "Late-Round Wizardry",
       "metric": {
         "round": 10,
-        "pick": 109,
-        "season_points": 0.0,
+        "pick": 110,
+        "season_points": 382.24,
         "late_round_threshold": 10
+      },
+      "team": {
+        "team_key": "406.l.138635.t.6",
+        "team_name": "Holy Toledo!",
+        "manager_names": "christopher"
+      },
+      "player": {
+        "player_key": "406.p.32671",
+        "player_name": "Joe Burrow",
+        "player_position": "QB"
+      }
+    },
+    {
+      "id": "bench_war_crime",
+      "title": "Bench War Crime",
+      "metric": {
+        "week": 11,
+        "points": 53.4
       },
       "team": {
         "team_key": "406.l.138635.t.5",
@@ -325,26 +343,8 @@
         "manager_names": "brandon"
       },
       "player": {
-        "player_key": "406.p.30120",
-        "player_name": "Mike Williams",
-        "player_position": "WR"
-      }
-    },
-    {
-      "id": "bench_war_crime",
-      "title": "Bench War Crime",
-      "metric": {
-        "week": 1,
-        "points": 0.0
-      },
-      "team": {
-        "team_key": "406.l.138635.t.1",
-        "team_name": "SinkinLikeAStoneInDaSea",
-        "manager_names": "Chris"
-      },
-      "player": {
-        "player_key": "406.p.26804",
-        "player_name": "Latavius Murray",
+        "player_key": "406.p.32711",
+        "player_name": "Jonathan Taylor",
         "player_position": "RB"
       }
     },
@@ -353,7 +353,7 @@
       "title": "Set-and-Forget Legend",
       "metric": {
         "starts": 17,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 11.29
       },
       "team": {
         "team_key": "406.l.138635.t.4",
@@ -367,21 +367,33 @@
       }
     },
     {
+      "id": "overthinker",
+      "title": "Overthinker",
+      "metric": {
+        "games": 5
+      },
+      "team": {
+        "team_key": "406.l.138635.t.2",
+        "team_name": "Anti Relegation",
+        "manager_names": "Ray"
+      }
+    },
+    {
       "id": "why_dont_he_want_me",
       "title": "Why Don't He Want Me, Man?",
       "metric": {
-        "bench_points": 0.0,
-        "bench_weeks": 12
+        "bench_points": 349.6,
+        "bench_weeks": 16
       },
       "player": {
-        "player_key": "406.p.26804",
-        "player_name": "Latavius Murray",
-        "player_position": "RB"
+        "player_key": "406.p.32671",
+        "player_name": "Joe Burrow",
+        "player_position": "QB"
       },
       "team": {
-        "team_key": "406.l.138635.t.1",
-        "team_name": "SinkinLikeAStoneInDaSea",
-        "manager_names": "Chris"
+        "team_key": "406.l.138635.t.6",
+        "team_name": "Holy Toledo!",
+        "manager_names": "christopher"
       }
     },
     {
@@ -429,7 +441,7 @@
       "title": "Emotional Support Player",
       "metric": {
         "starts": 17,
-        "avg_weekly_score": 0.0
+        "avg_weekly_score": 11.29
       },
       "team": {
         "team_key": "406.l.138635.t.4",

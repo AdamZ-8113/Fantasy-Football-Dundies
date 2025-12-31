@@ -18,6 +18,16 @@ def compute_team_insights_for_league(conn, league_key, season):
     weekly_points, weekly_projected = gi.build_weekly_points(matchups)
     rosters = gi.load_rosters(conn, league_key)
     player_points = gi.load_player_fantasy_points(conn, league_key, stat_modifiers)
+    if player_points:
+        max_points = max(player_points.values())
+        if max_points == 0:
+            fallback = gi.load_player_points(conn, league_key, "player_points")
+            if fallback:
+                player_points = fallback
+    else:
+        fallback = gi.load_player_points(conn, league_key, "player_points")
+        if fallback:
+            player_points = fallback
     draft_results = gi.load_draft_results(conn, league_key)
     player_map = gi.load_player_map(conn)
     playoff_start = settings.get("playoff_start_week")
