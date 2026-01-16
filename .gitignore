@@ -12,6 +12,7 @@ __pycache__/
 # Data
 /data/raw/
 /data/processed/
+/site/data/
 config/oauth_tokens.json
 *.sqlite
 *.db
