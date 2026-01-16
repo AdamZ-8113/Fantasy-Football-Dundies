@@ -110,6 +110,9 @@ const HIDDEN_INSIGHTS = new Set([
   "average_playoff_cutoff",
 ]);
 
+const DATA_VERSION = "2026-01-15";
+const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
+
 const state = {
   seasons: [],
   leagueBySeason: {},
@@ -1096,7 +1099,7 @@ async function ensureTeamInsights(season) {
 
   state.teamInsightsStatus[season] = "loading";
   try {
-    const response = await fetch(`data/insights_${season}_teams.json`);
+    const response = await fetch(dataPath(`data/insights_${season}_teams.json`));
     if (!response.ok) {
       throw new Error("Team insights not found.");
     }
@@ -1210,7 +1213,7 @@ function updateHero(seasonData) {
 }
 
 async function loadSeason(season) {
-  const response = await fetch(`data/insights_${season}.json`);
+  const response = await fetch(dataPath(`data/insights_${season}.json`));
   const data = await response.json();
   state.currentSeason = season;
   state.currentSeasonData = data;
@@ -1239,14 +1242,14 @@ async function init() {
   setTheme(savedTheme || defaultTheme);
   renderThemeButtons();
 
-  const indexRes = await fetch("data/insights_index.json");
+  const indexRes = await fetch(dataPath("data/insights_index.json"));
   const index = await indexRes.json();
   const seasons = [...(index.seasons || [])];
   const nonAll = seasons.filter((season) => season !== "all");
   nonAll.sort((a, b) => Number(a) - Number(b));
   state.seasons = seasons.includes("all") ? ["all", ...nonAll] : nonAll;
 
-  const leaguesRes = await fetch("data/leagues.json");
+  const leaguesRes = await fetch(dataPath("data/leagues.json"));
   const leagues = await leaguesRes.json();
   leagues.forEach((league) => {
     if (league.season) {
@@ -1256,7 +1259,7 @@ async function init() {
     }
   });
 
-  const teamsRes = await fetch("data/teams.json");
+  const teamsRes = await fetch(dataPath("data/teams.json"));
   const teams = await teamsRes.json();
   teams.forEach((team) => {
     const season = state.seasonByLeagueKey[team.league_key];
@@ -1273,7 +1276,7 @@ async function init() {
     });
   });
 
-  const summaryRes = await fetch("data/league_summary.json");
+  const summaryRes = await fetch(dataPath("data/league_summary.json"));
   const summary = await summaryRes.json();
   summary.forEach((row) => {
     if (!row.season) {
@@ -1285,7 +1288,7 @@ async function init() {
     state.summaryBySeason[row.season].push(row);
   });
 
-  const overviewRes = await fetch("data/league_overview.json");
+  const overviewRes = await fetch(dataPath("data/league_overview.json"));
   const overview = await overviewRes.json();
   overview.forEach((row) => {
     if (!row.season) {
