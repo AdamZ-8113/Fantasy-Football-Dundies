@@ -2,6 +2,9 @@
 
 Fantasy Football Dundies pulls multi-season Yahoo Fantasy Football data, calculates end-of-season awards, and publishes a static "Wrapped" style site.
 
+## Demo
+https://adamz-8113.github.io/Fantasy-Football-Dundies/?season=2025
+
 ## What this does
 - Authenticates to the Yahoo Fantasy Sports API.
 - Downloads league data (matchups, rosters, transactions, draft results, stats).
